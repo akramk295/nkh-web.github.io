@@ -26,6 +26,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
   <!-- owl  -->
@@ -37,39 +38,10 @@
   <link href="assets/css/owl.theme.css" rel="stylesheet">
 
   <style>
-    #owl-demo .item {
-      /* background: #42bdc2; */
-      padding: 30px 0px;
-      margin: 5px;
-      color: #FFF;
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      border-radius: 3px;
-      text-align: center;
+    .servies-text a {
+      font-size: 28px;
     }
-    .slide-card{  
-      height: 280px; 
-      width: 23rem; 
-      background-color: #f3f3f3; 
-      border-radius: 1.25rem;
-      border: 0px!important;
-    }
-    .slide-card .card-body{
-      padding-top: 0px;
-    }
-    .contact-form{
-      background-color: #f3f3f3!important;
-      margin-top: 0px!important;
-    }
-    .contact-form input, .contact-form textarea{
-      border:0px!important;
-      width: 100%!important;
-      resize: none;
-      /* background-color: #f3f3f3!important; */
-    }
-    .title-box-desc{
-      font-size: 24px;
-    }
+    
   </style>
 </head>
 
@@ -87,9 +59,28 @@
       <nav class="nav-menu float-right d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="project.html">Project</a></li>
-          <li><a href="clients.html">Clients</a></li>
+          <!-- <li><a href="#">Service</a></li> -->
+          <li class="drop-down"><a href="">Service</a>
+            <ul>
+              <li class="drop-down"><a href="#">Managed Services</a>
+                <ul>
+                  <!-- <li><a href="#">Sub Service 1</a></li>
+                  <li><a href="#">Sub Service 2</a></li> -->
+                </ul>
+              </li>
+              <li><a href="#">Cloud Services</a></li>
+              <li><a href="#">Virtualization</a></li>
+            </ul>
+          </li>
+          <!-- <li><a href="project.html">Project</a></li> -->
+          <li class="drop-down"><a href="">Project</a>
+            <ul>
+              <li><a href="#">Project 1</a></li>
+              <li><a href="#">Project 2</a></li>
+              <li><a href="#">Project 3</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Case study</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -241,6 +232,108 @@
       </div>
     </div>
   </section><!-- End About Section -->
+
+  <!-- ======= Our Expertise Section ======= -->
+  <section id="services" class="services py-5">
+    <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="col-md-3">
+          <div class="row">
+            <div class="title-box">
+              <div>
+                Our <br> Expertise
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="servies-text py-4">
+              <a href="#">View all</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-9">
+          <div id="owl-our-experties" class="owl-carousel owl-theme clientReview">
+            <div class="item">
+              <div class="card service-card">
+                <img src="assets/img/services/img1.png" alt="">
+                <div class="over-lays">
+                </div>
+                <div class="service-card-text">
+                  <div class="service-card-title">Managed Services</div>
+                    <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated
+                      total IT solutions </small>
+                  <div class="py-2">
+                    <a href="">View more <img src="assets/img/long-arrow-right.png" class="img-fluid"></img></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card service-card">
+                <img src="assets/img/services/img2.png" alt="">
+                <div class="over-lays">
+                </div>
+                <div class="service-card-text">
+                  <div class="service-card-title">Cloud Services</div>
+                    <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions </small>
+                  <div class="py-2">
+                    <a href="">View more <img src="assets/img/long-arrow-right.png" class="img-fluid"></img></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card service-card">
+                <img src="assets/img/services/img3.png" alt="">
+                <div class="over-lays">
+                </div>
+                <div class="service-card-text">
+                  <div class="service-card-title">Virtualization</div>
+                    <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions  </small>
+                  <div class="py-2">
+                    <a href="">View more <img src="assets/img/long-arrow-right.png" class="img-fluid"></img></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card service-card">
+                <img src="assets/img/services/img1.png" alt="">
+                <div class="over-lays">
+                </div>
+                <div class="service-card-text">
+                  <div class="service-card-title">Managed Services</div>
+                    <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated
+                      total IT solutions </small>
+                  <div class="py-2">
+                    <a href="">View more <img src="assets/img/long-arrow-right.png" class="img-fluid"></img></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card service-card">
+                <img src="assets/img/services/img2.png" alt="">
+                <div class="over-lays">
+                </div>
+                <div class="service-card-text">
+                  <div class="service-card-title">Managed Services</div>
+                    <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated
+                      total IT solutions </small>
+                  <div class="py-2">
+                    <a href="">View more <img src="assets/img/long-arrow-right.png" class="img-fluid"></img></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Our Expertise Section -->
+
   <!-- ======= Client Section ======= -->
   <section id="services" class="services py-5" style="background-color: #f3f3f3;">
     <div class="container-fluid">
@@ -319,14 +412,14 @@
           <div class="">
             <div class="title-box-desc">
               We help businesses in fostering and sustaining workforce agility so they can adapt to shifting market
-              conditions and business needs, as well as stay up with the evolution of the workplace.  
+              conditions and business needs, as well as stay up with the evolution of the workplace.
             </div>
           </div>
         </div>
       </div>
       <div class="row mt-5">
         <div class="col-md-12">
-          <div id="owl-demo1" class="owl-carousel owl-theme">
+          <div id="owl-demo1" class="owl-carousel owl-theme clientReview">
             <div class="item">
               <div class="card slide-card">
                 <div class="media px-3 pt-3">
@@ -336,9 +429,10 @@
                     <small> IT Analyst | Windows system Engineer </small>
                   </div>
                 </div>
-                <!-- <hr> -->
                 <div class="card-body pt-5">
-                  <p class="card-text">Thank you for your support and guidance during the process. You have been very helpful and held my hand to go through every single step. I am very grateful to have you as my agent. Thanks again for everything! </p>
+                  <p class="card-text">Thank you for your support and guidance during the process. You have been very
+                    helpful and held my hand to go through every single step. I am very grateful to have you as my
+                    agent. Thanks again for everything! </p>
                 </div>
               </div>
             </div>
@@ -351,9 +445,9 @@
                     <small> EDI team lead at DSV - Global Transport and Logistics</small>
                   </div>
                 </div>
-                <hr>
-                <div class="card-body">
-                  <p class="card-text">Very good communication, open and responsive as well as helpful. thanks to making recruitment a bit easier.</p>
+                <div class="card-body pt-5">
+                  <p class="card-text">Very good communication, open and responsive as well as helpful. thanks to making
+                    recruitment a bit easier.</p>
                 </div>
               </div>
             </div>
@@ -366,11 +460,10 @@
                     <small>Network Designer Network Designer</small>
                   </div>
                 </div>
-                <hr>
                 <div class="card-body">
-                  <p class="card-text">
-                    One of the best & top of the class, as there is a saying "there is hope behind every resume" 
-                    as a recruiter and expert in the field Amulya managed my job opportunity and drive me through 
+                  <p class="card-text pt-5">
+                    One of the best & top of the class, as there is a saying "there is hope behind every resume"
+                    as a recruiter and expert in the field Amulya managed my job opportunity and drive me through
                     all the way. What can say apart from being thankful?
                   </p>
                 </div>
@@ -385,9 +478,10 @@
                     <small> IT Software EngineerIT Software Engineer  </small>
                   </div>
                 </div>
-                <hr>
-                <div class="card-body">
-                  <p class="card-text">Amulya helped me through the entire recruitment process. Thanks to her, I had a very smooth and quick recruitment. I definitely recommend her services when working with Adroit People.</p>
+                <div class="card-body pt-5">
+                  <p class="card-text">Amulya helped me through the entire recruitment process. Thanks to her, I had a
+                    very smooth and quick recruitment. I definitely recommend her services when working with Adroit
+                    People.</p>
                 </div>
               </div>
             </div>
@@ -400,9 +494,10 @@
                     <small> IT Analyst | Windows system Engineer </small>
                   </div>
                 </div>
-                <hr>
-                <div class="card-body">
-                  <p class="card-text">Thank you for your support and guidance during the process. You have been very helpful and held my hand to go through every single step. I am very grateful to have you as my agent. Thanks again for everything! </p>
+                <div class="card-body pt-5">
+                  <p class="card-text">Thank you for your support and guidance during the process. You have been very
+                    helpful and held my hand to go through every single step. I am very grateful to have you as my
+                    agent. Thanks again for everything! </p>
                 </div>
               </div>
             </div>
@@ -415,9 +510,10 @@
                     <small> IT Analyst | Windows system Engineer </small>
                   </div>
                 </div>
-                <hr>
-                <div class="card-body">
-                  <p class="card-text">Thank you for your support and guidance during the process. You have been very helpful and held my hand to go through every single step. I am very grateful to have you as my agent. Thanks again for everything! </p>
+                <div class="card-body pt-5">
+                  <p class="card-text">Thank you for your support and guidance during the process. You have been very
+                    helpful and held my hand to go through every single step. I am very grateful to have you as my
+                    agent. Thanks again for everything! </p>
                 </div>
               </div>
             </div>
@@ -428,87 +524,88 @@
     </div>
   </section><!-- End Review Section -->
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-  
-            <div class="col-lg-5 col-md-6 footer-info">
-              <!-- <h3>Mamba</h3> -->
-              <img class="img-fluid" style="height: 120px;" src="assets/img/footer-logo.png" alt="footer logo">
-              <p>
-                NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions. 
-                We work hand-in-hand with our clients to provide lasting network, development and web-based solutions 
-                that understand, anticipate, and meet current and long-term business objectives.
-                <!-- A108 Adam Street <br>
+  <!-- ======= Footer ======= -->
+  <footer id="footer" style="background-color: #f3f3f3;">
+    <div class="footer-top pt-5">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-lg-5 col-md-6 footer-info">
+            <!-- <h3>Mamba</h3> -->
+            <img class="img-fluid" style="height: 120px;" src="assets/img/footer-logo.png" alt="footer logo">
+            <p>
+              NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT
+              solutions.
+              We work hand-in-hand with our clients to provide lasting network, development and web-based solutions
+              that understand, anticipate, and meet current and long-term business objectives.
+              <!-- A108 Adam Street <br>
                 NY 535022, USA<br><br> -->
-                <!-- <strong>Phone:</strong> +1 5589 55488 55<br>
+              <!-- <strong>Phone:</strong> +1 5589 55488 55<br>
                 <strong>Email:</strong> info@example.com<br> -->
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </p>
+            <div class="social-links mt-3">
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4 class="uf">Useful Links</h4>
+            <ul class="mt-5">
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Project</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Case Study</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4 class="font-weight-bolder">Contact Us</h4>
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name">
               </div>
-            </div>
-  
-            <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul class="mt-5">
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Project</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Case Study</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">About Us</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
-              </ul>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4 class="font-weight-bolder">Contact Us</h4>
-              <form class="contact-form">
-                <div class="form-group">
-                  <label for="name">Name</label>
-                  <input type="text" class="form-control" id="name" name="name" >
-                </div>
-                <div class="form-group">
-                  <label for="email">Email</label>
-                  <input type="email" class="form-control" id="email" name="email" >
-                </div>
-                <div class="form-group">
-                  <label for="message">Message</label>
-                  <textarea class="form-control" id="message" name="message" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send</button>
-              </form>
-              <!-- <form action="" method="post">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+            <!-- <form action="" method="post">
 
                 <input type="email" name="email"><input type="submit" value="Subscribe">
               </form> -->
-  
-            </div>
-  
+
           </div>
+
         </div>
       </div>
-  
-      <div class="container">
-        <div class="copyright">
-          COPYRIGHT © 2023 NHKtechnologies - ALL RIGHTS RESERVED
-          <!-- &copy; Copyright <strong><span>Mamba</span></strong>. All Rights Reserved -->
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/ -->
-          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-        </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        COPYRIGHT © 2023 NHKtechnologies - ALL RIGHTS RESERVED
+        <!-- &copy; Copyright <strong><span>Mamba</span></strong>. All Rights Reserved -->
       </div>
-    </footer><!-- End Footer -->
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
 
 
@@ -529,19 +626,33 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/css/owl.carousel.js"></script>
+  <script src="assets/js/custom.js"></script>
 
 
   <script>
     $(document).ready(function () {
 
+      var owl_our_experties = $("#owl-our-experties");
       var owl = $("#owl-demo");
       var owl1 = $("#owl-demo1");
 
+      owl_our_experties.owlCarousel({
+        itemsCustom: [
+          [0, 1],
+          [450, 1],
+          [600, 2],
+          [700, 3],
+          [1000, 3],
+        ],
+        loop: true,
+        navigation: true,
+        pagination: false
+      });
       owl.owlCarousel({
         itemsCustom: [
           [0, 2],
-          [450, 3],
-          [600, 4],
+          [450, 2],
+          [600, 3],
           [700, 5],
           [1000, 5],
         ],
@@ -554,14 +665,14 @@
       });
       owl1.owlCarousel({
         itemsCustom: [
-          [0, 2],
+          [0, 1],
           [450, 3],
           [600, 4],
           [700, 4],
           [1000, 4],
         ],
         //  navigation : true
-        navigation : true,
+        navigation: true,
         pagination: false
       });
     });
