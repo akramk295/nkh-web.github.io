@@ -39,13 +39,19 @@
 
   <style>
     .servies-text a {
-      font-size: 20px;
+      font-size: 18px;
     }
     #owl-our-experties .owl-item{
       width: 12%!important;
     }
     .img-about{
       width: 100%;
+    }
+    .nav-ul .nav-li{
+      padding-top: 16px;
+    }
+    .hero-container .carousel-indicators{
+      bottom: 13px!important;
     }
 
     
@@ -60,14 +66,17 @@
       <div class="logo float-left">
         <!-- <h1 class="text-light"><a href="index.html"><span> <b> NHK </b></span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html"><img style="max-height: 60px;" src="assets/img/logo.jpg" alt="" class="img-fluid"></a>
+        <a href="index.html">
+          <!-- <img style="max-height: 60px;" src="assets/img/logo.jpg" alt="" class="img-fluid"> -->
+          <img style="max-height: 80px;" src="assets/img/footer-logo.png" alt="" class="img-fluid">
+        </a>
       </div>
 
-      <nav class="nav-menu float-right d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
+      <nav class="nav-menu float-right d-none d-lg-block ">
+        <ul class="nav-ul">
+          <li class="nav-li active"><a href="index.html">Home</a></li>
           <!-- <li><a href="#">Service</a></li> -->
-          <li class="drop-down"><a href="">Service</a>
+          <li class="nav-li drop-down"><a href="">Service</a>
             <ul>
               <li class="drop-down"><a href="#">Managed Services</a>
                 <ul>
@@ -80,16 +89,16 @@
             </ul>
           </li>
           <!-- <li><a href="project.html">Project</a></li> -->
-          <li class="drop-down"><a href="">Project</a>
+          <li class="nav-li drop-down"><a href="">Project</a>
             <ul>
               <li><a href="#">Project 1</a></li>
               <li><a href="#">Project 2</a></li>
               <li><a href="#">Project 3</a></li>
             </ul>
           </li>
-          <li><a href="#">Case study</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li class="nav-li"><a href="#">Case study</a></li>
+          <li class="nav-li"><a href="about.html">About</a></li>
+          <li class="nav-li"><a href="#">Contact</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -120,7 +129,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="text-right slider-side-img">
-                      <img class="animated fadeInUp" style="height:35rem;" src="assets/img/slide/nhk.png" alt="">
+                      <img class="animated fadeInUp" style="height:28rem;" src="assets/img/slide/nhk.png" alt="">
                     </div>
                   </div>
                 </div>
@@ -143,7 +152,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="text-right slider-side-img">
-                      <img class="animated fadeInUp" style="height: 35rem;" src="assets/img/slide/nhk2.png" alt="">
+                      <img class="animated fadeInUp" style="height: 28rem;" src="assets/img/slide/nhk2.png" alt="">
                     </div>
                   </div>
                 </div>
@@ -166,7 +175,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="text-right slider-side-img">
-                      <img class="animated fadeInUp" style="height: 35rem;" src="assets/img/slide/nhk3.png" alt="">
+                      <img class="animated fadeInUp" style="height: 28rem;" src="assets/img/slide/nhk3.png" alt="">
                     </div>
                   </div>
                 </div>
@@ -182,7 +191,7 @@
   <section id="services" class="services py-5">
     <div class="container-fluid pt-5">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="row">
             <div class="col-md-6">
               <div class="title-box">
@@ -218,7 +227,7 @@
             </div>
           </div>
         </div> -->
-        <div class="col-md-6 d-flex">
+        <div class="col-md-8 d-flex">
           <div class="">
             <h1 class="font-weight-bolder">
               NHK Technologies
@@ -231,7 +240,13 @@
               solutions that understand, anticipate, and meet current and long-term business objectives. From Assessment
               and analysis to implementation and support, we approach technology from a whole business perspective. Our
               customer-focused technology team delivers unrivaled depth of technical resources and support to our
-              clients. Experience is more than saying you can do the job, it is building networks every day. And we do.
+              clients. Experience is more than saying you can do the job, it is building networks every day.
+              NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT
+              solutions. We work hand-in-hand with our clients to provide lasting network, development and web-based
+              solutions that understand, anticipate, and meet current and long-term business objectives. From Assessment
+              and analysis to implementation and support, we approach technology from a whole business perspective. Our
+              customer-focused technology team delivers unrivaled depth of technical resources and support to our
+              clients. Experience is more than saying you can do the job, it is building networks every day.
             </div>
             <a href="#" class="custom-btn">More..</a>
           </div>
@@ -244,7 +259,7 @@
   <section id="services" class="services py-5">
     <div class="container-fluid" style="padding-right:20px!important;">
       <div class="row mt-5">
-        <div class="col-md-3">
+        <div class="col-md-2">
           <div class="row">
             <div class="col-md-12">
               <div class="title-box">
@@ -258,13 +273,13 @@
           <div class="row">
             <div class="col-md-12">
               <div class="servies-text py-4">
-                <a href="#">View all</a>
+                <a href="#">View all <img src="assets/img/bi_arrow-down.png" class="img-fluid"></a>
               </div>
             </div>
           </div>
           
         </div>
-        <div class="col-md-9">
+        <div class="col-md-10">
           <div id="owl-our-experties" class="owl-carousel owl-theme clientReview">
             <div class="item">
               <div class="card service-card">
@@ -350,20 +365,15 @@
   <section id="services" class="services py-5" style="background-color: #f3f3f3;">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-2">
           <div class="title-box">
             <div>
               Our <br> Clients
             </div>
           </div>
         </div>
-        <div class="col-md-9 d-flex align-items-end">
+        <div class="col-md-10 d-flex align-items-end">
           <div class="">
-            <!-- <h4 class="font-weight-bolder">
-              NHK Technologies PVT. LTD.
-              <b>
-              </b>
-            </h4> -->
             <div class="title-box-desc">
               We help businesses in fostering and sustaining workforce agility so they can adapt to shifting market
               conditions and business needs, as well as stay up with the evolution of the workplace.  
@@ -371,7 +381,6 @@
           </div>
         </div>
       </div>
-
       <div class="row mt-5">
         <div id="owl-demo" class="owl-carousel owl-theme">
           <div class="item">
@@ -406,21 +415,161 @@
           </div>
         </div>
       </div>
-
     </div>
-  </section><!-- End Client Section -->
-  <!-- ======= Reciew Section ======= -->
+  </section>
+  <!-- End Client Section -->
+
+  <!-- ======= Project Section ======= -->
   <section id="services" class="services py-5">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-2">
+          <div class="title-box">
+            <div>
+              Our <br> Projects
+            </div>
+          </div>
+        </div>
+        <div class="col-md-10 d-flex align-items-end">
+          <div class=""> 
+            <h4 class="font-weight-bolder">
+              NHK Technologies PVT. LTD.
+            </h4>
+            <div class="title-box-desc">
+              Was formed in 2014 to meet the growing demands for integrated total IT solutions. We work hand-in-hand with our clients to provide lasting network, development and web-based solutions that understand, anticipate, and meet current and long-term business objectives. From Assessment and analysis to implementation
+            </div>
+            <!-- <p>
+              <small>
+              </small>
+            </p> -->
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-5">
+          <div class="nav side-nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="py-3 nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">Restoration of Exchange Environment</a>
+            <a class="py-3 nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Mailbox Migration to Office 365</a>
+            <a class="py-3 nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">Mail server to office 365</a>
+            <a class="py-3 nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">Restoration of Exchange Environment</a>
+            <a class="py-3 nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#tab-5" role="tab" aria-controls="tab-5" aria-selected="false">Mailbox Migration to Office 365</a>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <div class="text-center w-100">
+                    <img style="width: 440px; height: 300px;" class="img-fluid" src="assets/img/image-8.png" alt="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions the growing demands for integrated total IT solutions 
+                  </div>
+                  <a href="#" class="d-flex">
+                    <div >View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <div class="text-center w-100">
+                    <img style="width: 440px; height: 300px;" class="img-fluid" src="assets/img/image-8.png" alt="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions the growing demands for integrated total IT solutions 
+                  </div>
+                  <div>
+                    <a href="#" class="d-flex">
+                      <div >View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <div class="text-center w-100">
+                    <img style="width: 440px; height: 300px;" class="img-fluid" src="assets/img/image-8.png" alt="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions the growing demands for integrated total IT solutions 
+                  </div>
+                  <div>
+                    <a href="#" class="d-flex">
+                      <div >View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <div class="text-center w-100">
+                    <img style="width: 440px; height: 300px;" class="img-fluid" src="assets/img/image-8.png" alt="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions the growing demands for integrated total IT solutions 
+                  </div>
+                  <div>
+                    <a href="#" class="d-flex">
+                      <div >View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-5" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <div class="text-center w-100">
+                    <img style="width: 440px; height: 300px;" class="img-fluid" src="assets/img/image-8.png" alt="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions the growing demands for integrated total IT solutions 
+                  </div>
+                  <div>
+                    <a href="#" class="d-flex">
+                      <div >View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+  </section><!-- End Project Section -->
+
+  <!-- ======= Reciew Section ======= -->
+  <!-- <section id="services" class="services py-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2">
           <div class="title-box">
             <div>
               Client <br> Reviews
             </div>
           </div>
         </div>
-        <div class="col-md-9 d-flex align-items-end">
+        <div class="col-md-10 d-flex align-items-end">
           <div class="">
             <div class="title-box-desc">
               We help businesses in fostering and sustaining workforce agility so they can adapt to shifting market
@@ -534,7 +683,8 @@
       </div>
 
     </div>
-  </section><!-- End Review Section -->
+  </section> -->
+  <!-- End Review Section -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" style="background-color: #f3f3f3;">
@@ -544,7 +694,8 @@
 
           <div class="col-lg-5 col-md-6 footer-info">
             <!-- <h3>Mamba</h3> -->
-            <img class="img-fluid" style="height: 120px;" src="assets/img/footer-logo.png" alt="footer logo">
+            <!-- <img class="img-fluid" style="height: 120px;" src="assets/img/footer-logo.png" alt="footer logo"> -->
+            <h4>NHK Technologies PVT. LTD.</h4>
             <p>
               NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT
               solutions.
@@ -604,18 +755,18 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid copyright-container">
       <div class="copyright">
-        COPYRIGHT © 2023 NHKtechnologies - ALL RIGHTS RESERVED
+        COPYRIGHT © 2023 NHKTECHNOLOGIES - ALL RIGHTS RESERVED
         <!-- &copy; Copyright <strong><span>Mamba</span></strong>. All Rights Reserved -->
       </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/ -->
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-      </div>
+      <!-- <div class="credits">
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div> -->
     </div>
   </footer><!-- End Footer -->
 
@@ -654,7 +805,7 @@
           [450, 1],
           [600, 2],
           [700, 3],
-          [1000, 3],
+          [1000, 4],
         ],
         loop: true,
         navigation: true,
