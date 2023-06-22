@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.png" rel="icon">
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Readex Pro' rel='stylesheet'>
@@ -24,14 +24,68 @@
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/docs.theme.min.css">
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    
-    <script src="assets/js/owl.carousel.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- owl  -->
+  <link href="../assets/css/bootstrapTheme.css" rel="stylesheet">
+  <link href="../assets/css/custom.css" rel="stylesheet">
+
+  <!-- Owl Carousel Assets -->
+  <link href="assets/css/owl.carousel.css" rel="stylesheet">
+  <link href="assets/css/owl.theme.css" rel="stylesheet">
+
+  <style>
+    .banner {
+      background-image: url('assets/img/services/banner.png');
+      width: 100%;
+      height: 400px;
+      background-repeat: no-repeat;
+    }
+
+    .service-bg {
+      position: absolute;
+      top: 0;
+      background-image: url('assets/img/services/bg-image3.png');
+      /* background-position: bottom top 100px, right 800px; */
+      background-position: right top;
+      background-repeat: no-repeat;
+      /* height: auto; */
+      background-color: transparent;
+    }
+    .side-nav1  .nav-link.active{
+      color: #007bff;
+      background-color: transparent;
+      font-weight: bold;
+    }
+    .side-nav1  .nav-link, .nav-pills .show>.nav-link {
+      color: #000;
+    }
+    .img-box{
+      /* position: relative; */
+      background-image: url('assets/img/services/img-default2.jpg');
+      color: #FFFFFF;
+    }
+    .img-box ul {
+      padding: 0;
+        list-style: none;
+        margin-left: 0px!important;
+      }
+
+      .img-box ul li:before {
+        content: '✓ ';
+
+      }
+    /* .img-text{
+      
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    } */
+  </style>
 </head>
 
 <body>
@@ -42,87 +96,879 @@
       <div class="logo float-left">
         <!-- <h1 class="text-light"><a href="index.html"><span> <b> NHK </b></span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html"><img style="max-height: 60px;" src="assets/img/logo.jpg" alt="" class="img-fluid"></a>
+        <a href="index.html">
+          <!-- <img style="max-height: 60px;" src="assets/img/logo.jpg" alt="" class="img-fluid"> -->
+          <img style="max-height: 80px;" src="assets/img/footer-logo.png" alt="" class="img-fluid">
+        </a>
       </div>
 
-      <nav class="nav-menu float-right d-none d-lg-block">
-        <ul>
-          <li><a href="#header">Home</a></li>
-          <li class="active"><a href="#services">Service</a></li>  
-          <li><a href="#portfolio">Porject</a></li>
-          <li><a href="#team">Clients</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <nav class="nav-menu float-right d-none d-lg-block ">
+        <ul class="nav-ul">
+          <li class="nav-li active"><a href="index.html">Home</a></li>
+          <!-- <li><a href="#">Service</a></li> -->
+          <li class="nav-li drop-down"><a href="">Service</a>
+            <ul>
+              <li class="drop-down"><a href="#">Managed Services</a>
+                <ul>
+                  <!-- <li><a href="#">Sub Service 1</a></li>
+                  <li><a href="#">Sub Service 2</a></li> -->
+                </ul>
+              </li>
+              <li><a href="#">Cloud Services</a></li>
+              <li><a href="#">Virtualization</a></li>
+            </ul>
+          </li>
+          <!-- <li><a href="project.html">Project</a></li> -->
+          <li class="nav-li drop-down"><a href="">Project</a>
+            <ul>
+              <li><a href="#">Project 1</a></li>
+              <li><a href="#">Project 2</a></li>
+              <li><a href="#">Project 3</a></li>
+            </ul>
+          </li>
+          <li class="nav-li"><a href="#">Case study</a></li>
+          <li class="nav-li"><a href="about.html">About</a></li>
+          <li class="nav-li"><a href="#">Contact</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
     </div>
   </header><!-- End Header -->
 
-  <div>
-    <div class="owl-carousel owl-theme">
-      <div class="item"><h4>1</h4></div>
-      <div class="item"><h4>2</h4></div>
-      <div class="item"><h4>3</h4></div>
-      <div class="item"><h4>4</h4></div>
-      <div class="item"><h4>5</h4></div>
-      <div class="item"><h4>6</h4></div>
-      <div class="item"><h4>7</h4></div>
-      <div class="item"><h4>8</h4></div>
-      <div class="item"><h4>9</h4></div>
-      <div class="item"><h4>10</h4></div>
-      <div class="item"><h4>11</h4></div>
-      <div class="item"><h4>12</h4></div>
-  </div>
-  </div>
-  <main id="main">
-
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <!-- hello   
-        <div class="owl-carousel">
-          <div>1<img src="assets/img/slide/slide-1.jpg" alt="Image 1"></div>
-          <div>2<img src="assets/img/slide/slide-2.jpg" alt="Image 2"></div>
-          <div>3<img src="assets/img/slide/slide-3.jpg" alt="Image 3"></div>
-        </div> -->
-        
-
-        <div class="row no-gutters">
-          <div class="col-lg-6 video-box">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-          </div>
-
-          <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
-
-            <div class="section-title">
-              <h2>About Us</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
-            </div>
-
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-
+  <!-- ======= Slider Section ======= -->
+  <section id="services" class="pt-0">
+    <div class="hero-container">
+      <div class="banner d-flex align-items-center">
+        <div class="w-100 d-flex justify-content-center">
+          <div class="col-md-4 text-white">
+            <h1 class="animated fadeInDown font-weight-bold text-center">Our Services</h1>
+            <div class="animated fadeInUp">It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.</div><br>
           </div>
         </div>
-
       </div>
-    </section><!-- End About Us Section -->
 
-    
+    </div>
+  </section><!-- End Slider -->
 
-  </main><!-- End #main -->
+  <!-- ======= Service Section ======= -->
+  <section id="services" class="services py-4">
+    <div class="container-fluid pt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-fluid img-about" src="assets/img/services/services.jpg" alt="">
+        </div>
+        <div class="col-md-8">
+          <div class="row service-bg h-100">
+            <div class="col-md-2"></div>
+            <div class="col-md-10 d-flex align-items-center">
+              <div class="px-5 pt-5 mt-5">
+                <h2 class="font-weight-bolder" style="color: #007bff !important;"> IT Services that put your business
+                  first </h2>
+                <div class="about-text">
+                  Our clients can choose from a whole range of IT and technology solutions, that help them run their
+                  businesses more successfully and smoothly. Whether you could benefit from our strategic IT advice,
+                  checking and maintaining the security of your systems, reducing print costs, or implementing new tech
+                  to enable remote-working, we’ll put the success of your business first. See more
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Service Section -->
+
+
+  <!-- ======= Project Section ======= -->
+  <section id="services" class="services py-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+          <div class="text-center">
+            <h2 class="font-weight-bolder text-primary"> Our Service </h2>
+            <div>
+              Formed in 2014 to meet the growing demands for integrated total IT
+            </div>
+            <!-- <p>
+              <small>
+              </small>
+            </p> -->
+          </div>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-md-3">
+          <div class="nav side-nav1 flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="py-2 nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#tab-1" role="tab"
+              aria-controls="tab-1" aria-selected="true">Managed Service (OR MSP)</a>
+            <a class="py-2 nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#tab-2" role="tab"
+              aria-controls="tab-2" aria-selected="false">Virtualization</a>
+            <a class="py-2 nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#tab-3" role="tab"
+              aria-controls="tab-3" aria-selected="false">RBDR (OR Disaster Prevention)</a>
+            <a class="py-2 nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#tab-4" role="tab"
+              aria-controls="tab-4" aria-selected="false">Operations Security</a>
+            <a class="py-2 nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#tab-5" role="tab"
+              aria-controls="tab-5" aria-selected="false">VOIP</a>
+            <a class="py-2 nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#tab-6" role="tab"
+              aria-controls="tab-5" aria-selected="false">Mobile Computing</a>
+            <a class="py-2 nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#tab-7" role="tab"
+              aria-controls="tab-5" aria-selected="false">Enterprise Services</a>
+            <a class="py-2 nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#tab-8" role="tab"
+              aria-controls="tab-5" aria-selected="false">Managed Service (OR MSP)</a>
+            <a class="py-2 nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#tab-9" role="tab"
+              aria-controls="tab-5" aria-selected="false">Software & Database Development</a>
+            <a class="py-2 nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#tab-10" role="tab"
+              aria-controls="tab-5" aria-selected="false">Web Based Solutions</a>
+            <a class="py-2 nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#tab-11" role="tab"
+              aria-controls="tab-5" aria-selected="false">UX & UI Design</a>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <h4 class="font-weight-bolder text-primary">Managed Service</h4>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies has been in business since 2010 as a Block-Time IT company that specialized in
+                    break-fix services. NHK has had great success in servicing and maintaining small and medium size
+                    companies by going beyond the normal scope of service. That fact still holds true and by conducting
+                    thorough surveys and questionnaires, we have formulated an All-Inclusive IT Support model called
+                    “NHK Total Care”. <br><br>
+
+                    Whether you are the CFO looking to maintain business functions at a reduced cost or an IT Director
+                    trying to manage a staff, unique situations can occur. The NHK Total Care solution is tailored for
+                    the specific need of the business. We strategically developed a solution for businesses with an IT
+                    staff or without an IT staff.<br><br>
+
+                    The NHK Total Care solution was generated to eliminate the annoyances business owners, C-Level
+                    executives, and IT Directors were experiencing. The NHK Total Care Solution is based around a Fixed
+                    Fee model and disposes of any open ended costs associated with 3rd party IT support. Business
+                    owners, CFO’s, and Controllers can accurately budget around their current IT network support without
+                    any additional costs.<br><br>
+
+                    One of the biggest challenges a business faces is the security of their network. Whether it is
+                    protecting their client’s information, detecting and spoiling would- be hackers or keeping up to
+                    date on new virus threats. The list goes on and on. NHK Total Care takes security to the next level
+                    by utilizing enterprise equipment combined with the best pro-active measures, terminating any
+                    security threats that will arise.<br><br>
+
+                    As businesses rely more on data communication, it is essential to have a fully functional email
+                    system, free of unwanted advertisements. The NHK Total Care Solution is provisioned with the world’s
+                    leading security applications to guard against unwanted solicitations.<br><br>
+
+                    NHK Technologies believes an effective consultant not only provides results-driven conclusions but
+                    provides a detailed flow chart on how each solution was determined. The NHK Total Care Solution is
+                    comprised of 4 areas of professional services. Each area is critical to ensure a healthy and
+                    efficient IT infrastructure. The 4 areas of professional services are, but not limited to: <br><br>
+
+                    <ul>
+                      <li>24x7 Network Monitoring</li>
+                      <li>Unlimited Help Desk Support</li>
+                      <li>Unlimited On-Site Support</li>
+                      <li>Unlimited Technology Consulting</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <h4 class="font-weight-bolder text-primary">Virtualization</h4>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies has been in business since 2010 as a Block-Time IT company that specialized in
+                    break-fix services. NHK has had great success in servicing and maintaining small and medium size
+                    companies by going beyond the normal scope of service. That fact still holds true and by conducting
+                    thorough surveys and questionnaires, we have formulated an All-Inclusive IT Support model called
+                    “NHK Total Care”. <br><br>
+
+                    Whether you are the CFO looking to maintain business functions at a reduced cost or an IT Director
+                    trying to manage a staff, unique situations can occur. The NHK Total Care solution is tailored for
+                    the specific need of the business. We strategically developed a solution for businesses with an IT
+                    staff or without an IT staff.<br><br>
+
+                    The NHK Total Care solution was generated to eliminate the annoyances business owners, C-Level
+                    executives, and IT Directors were experiencing. The NHK Total Care Solution is based around a Fixed
+                    Fee model and disposes of any open ended costs associated with 3rd party IT support. Business
+                    owners, CFO’s, and Controllers can accurately budget around their current IT network support without
+                    any additional costs.<br><br>
+
+                    One of the biggest challenges a business faces is the security of their network. Whether it is
+                    protecting their client’s information, detecting and spoiling would- be hackers or keeping up to
+                    date on new virus threats. The list goes on and on. NHK Total Care takes security to the next level
+                    by utilizing enterprise equipment combined with the best pro-active measures, terminating any
+                    security threats that will arise.<br><br>
+
+                    As businesses rely more on data communication, it is essential to have a fully functional email
+                    system, free of unwanted advertisements. The NHK Total Care Solution is provisioned with the world’s
+                    leading security applications to guard against unwanted solicitations.<br><br>
+
+                    NHK Technologies believes an effective consultant not only provides results-driven conclusions but
+                    provides a detailed flow chart on how each solution was determined. The NHK Total Care Solution is
+                    comprised of 4 areas of professional services. Each area is critical to ensure a healthy and
+                    efficient IT infrastructure. The 4 areas of professional services are, but not limited to: <br><br>
+
+                    <ul>
+                      <li>24x7 Network Monitoring</li>
+                      <li>Unlimited Help Desk Support</li>
+                      <li>Unlimited On-Site Support</li>
+                      <li>Unlimited Technology Consulting</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <h4 class="font-weight-bolder text-primary">RBDR (OR Disaster Prevention)</h4>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies has been in business since 2010 as a Block-Time IT company that specialized in
+                    break-fix services. NHK has had great success in servicing and maintaining small and medium size
+                    companies by going beyond the normal scope of service. That fact still holds true and by conducting
+                    thorough surveys and questionnaires, we have formulated an All-Inclusive IT Support model called
+                    “NHK Total Care”. <br><br>
+
+                    Whether you are the CFO looking to maintain business functions at a reduced cost or an IT Director
+                    trying to manage a staff, unique situations can occur. The NHK Total Care solution is tailored for
+                    the specific need of the business. We strategically developed a solution for businesses with an IT
+                    staff or without an IT staff.<br><br>
+
+                    The NHK Total Care solution was generated to eliminate the annoyances business owners, C-Level
+                    executives, and IT Directors were experiencing. The NHK Total Care Solution is based around a Fixed
+                    Fee model and disposes of any open ended costs associated with 3rd party IT support. Business
+                    owners, CFO’s, and Controllers can accurately budget around their current IT network support without
+                    any additional costs.<br><br>
+
+                    One of the biggest challenges a business faces is the security of their network. Whether it is
+                    protecting their client’s information, detecting and spoiling would- be hackers or keeping up to
+                    date on new virus threats. The list goes on and on. NHK Total Care takes security to the next level
+                    by utilizing enterprise equipment combined with the best pro-active measures, terminating any
+                    security threats that will arise.<br><br>
+
+                    As businesses rely more on data communication, it is essential to have a fully functional email
+                    system, free of unwanted advertisements. The NHK Total Care Solution is provisioned with the world’s
+                    leading security applications to guard against unwanted solicitations.<br><br>
+
+                    NHK Technologies believes an effective consultant not only provides results-driven conclusions but
+                    provides a detailed flow chart on how each solution was determined. The NHK Total Care Solution is
+                    comprised of 4 areas of professional services. Each area is critical to ensure a healthy and
+                    efficient IT infrastructure. The 4 areas of professional services are, but not limited to: <br><br>
+
+                    <ul>
+                      <li>24x7 Network Monitoring</li>
+                      <li>Unlimited Help Desk Support</li>
+                      <li>Unlimited On-Site Support</li>
+                      <li>Unlimited Technology Consulting</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <h4 class="font-weight-bolder text-primary">Operations Security</h4>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies has been in business since 2010 as a Block-Time IT company that specialized in
+                    break-fix services. NHK has had great success in servicing and maintaining small and medium size
+                    companies by going beyond the normal scope of service. That fact still holds true and by conducting
+                    thorough surveys and questionnaires, we have formulated an All-Inclusive IT Support model called
+                    “NHK Total Care”. <br><br>
+
+                    Whether you are the CFO looking to maintain business functions at a reduced cost or an IT Director
+                    trying to manage a staff, unique situations can occur. The NHK Total Care solution is tailored for
+                    the specific need of the business. We strategically developed a solution for businesses with an IT
+                    staff or without an IT staff.<br><br>
+
+                    The NHK Total Care solution was generated to eliminate the annoyances business owners, C-Level
+                    executives, and IT Directors were experiencing. The NHK Total Care Solution is based around a Fixed
+                    Fee model and disposes of any open ended costs associated with 3rd party IT support. Business
+                    owners, CFO’s, and Controllers can accurately budget around their current IT network support without
+                    any additional costs.<br><br>
+
+                    One of the biggest challenges a business faces is the security of their network. Whether it is
+                    protecting their client’s information, detecting and spoiling would- be hackers or keeping up to
+                    date on new virus threats. The list goes on and on. NHK Total Care takes security to the next level
+                    by utilizing enterprise equipment combined with the best pro-active measures, terminating any
+                    security threats that will arise.<br><br>
+
+                    As businesses rely more on data communication, it is essential to have a fully functional email
+                    system, free of unwanted advertisements. The NHK Total Care Solution is provisioned with the world’s
+                    leading security applications to guard against unwanted solicitations.<br><br>
+
+                    NHK Technologies believes an effective consultant not only provides results-driven conclusions but
+                    provides a detailed flow chart on how each solution was determined. The NHK Total Care Solution is
+                    comprised of 4 areas of professional services. Each area is critical to ensure a healthy and
+                    efficient IT infrastructure. The 4 areas of professional services are, but not limited to: <br><br>
+
+                    <ul>
+                      <li>24x7 Network Monitoring</li>
+                      <li>Unlimited Help Desk Support</li>
+                      <li>Unlimited On-Site Support</li>
+                      <li>Unlimited Technology Consulting</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-5" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <h4 class="font-weight-bolder text-primary">VOIP</h4>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies has been in business since 2010 as a Block-Time IT company that specialized in
+                    break-fix services. NHK has had great success in servicing and maintaining small and medium size
+                    companies by going beyond the normal scope of service. That fact still holds true and by conducting
+                    thorough surveys and questionnaires, we have formulated an All-Inclusive IT Support model called
+                    “NHK Total Care”. <br><br>
+
+                    Whether you are the CFO looking to maintain business functions at a reduced cost or an IT Director
+                    trying to manage a staff, unique situations can occur. The NHK Total Care solution is tailored for
+                    the specific need of the business. We strategically developed a solution for businesses with an IT
+                    staff or without an IT staff.<br><br>
+
+                    The NHK Total Care solution was generated to eliminate the annoyances business owners, C-Level
+                    executives, and IT Directors were experiencing. The NHK Total Care Solution is based around a Fixed
+                    Fee model and disposes of any open ended costs associated with 3rd party IT support. Business
+                    owners, CFO’s, and Controllers can accurately budget around their current IT network support without
+                    any additional costs.<br><br>
+
+                    One of the biggest challenges a business faces is the security of their network. Whether it is
+                    protecting their client’s information, detecting and spoiling would- be hackers or keeping up to
+                    date on new virus threats. The list goes on and on. NHK Total Care takes security to the next level
+                    by utilizing enterprise equipment combined with the best pro-active measures, terminating any
+                    security threats that will arise.<br><br>
+
+                    As businesses rely more on data communication, it is essential to have a fully functional email
+                    system, free of unwanted advertisements. The NHK Total Care Solution is provisioned with the world’s
+                    leading security applications to guard against unwanted solicitations.<br><br>
+
+                    NHK Technologies believes an effective consultant not only provides results-driven conclusions but
+                    provides a detailed flow chart on how each solution was determined. The NHK Total Care Solution is
+                    comprised of 4 areas of professional services. Each area is critical to ensure a healthy and
+                    efficient IT infrastructure. The 4 areas of professional services are, but not limited to: <br><br>
+
+                    <ul>
+                      <li>24x7 Network Monitoring</li>
+                      <li>Unlimited Help Desk Support</li>
+                      <li>Unlimited On-Site Support</li>
+                      <li>Unlimited Technology Consulting</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-6" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <h4 class="font-weight-bolder text-primary">Mobile Computing</h4>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies has been in business since 2010 as a Block-Time IT company that specialized in
+                    break-fix services. NHK has had great success in servicing and maintaining small and medium size
+                    companies by going beyond the normal scope of service. That fact still holds true and by conducting
+                    thorough surveys and questionnaires, we have formulated an All-Inclusive IT Support model called
+                    “NHK Total Care”. <br><br>
+
+                    Whether you are the CFO looking to maintain business functions at a reduced cost or an IT Director
+                    trying to manage a staff, unique situations can occur. The NHK Total Care solution is tailored for
+                    the specific need of the business. We strategically developed a solution for businesses with an IT
+                    staff or without an IT staff.<br><br>
+
+                    The NHK Total Care solution was generated to eliminate the annoyances business owners, C-Level
+                    executives, and IT Directors were experiencing. The NHK Total Care Solution is based around a Fixed
+                    Fee model and disposes of any open ended costs associated with 3rd party IT support. Business
+                    owners, CFO’s, and Controllers can accurately budget around their current IT network support without
+                    any additional costs.<br><br>
+
+                    One of the biggest challenges a business faces is the security of their network. Whether it is
+                    protecting their client’s information, detecting and spoiling would- be hackers or keeping up to
+                    date on new virus threats. The list goes on and on. NHK Total Care takes security to the next level
+                    by utilizing enterprise equipment combined with the best pro-active measures, terminating any
+                    security threats that will arise.<br><br>
+
+                    As businesses rely more on data communication, it is essential to have a fully functional email
+                    system, free of unwanted advertisements. The NHK Total Care Solution is provisioned with the world’s
+                    leading security applications to guard against unwanted solicitations.<br><br>
+
+                    NHK Technologies believes an effective consultant not only provides results-driven conclusions but
+                    provides a detailed flow chart on how each solution was determined. The NHK Total Care Solution is
+                    comprised of 4 areas of professional services. Each area is critical to ensure a healthy and
+                    efficient IT infrastructure. The 4 areas of professional services are, but not limited to: <br><br>
+
+                    <ul>
+                      <li>24x7 Network Monitoring</li>
+                      <li>Unlimited Help Desk Support</li>
+                      <li>Unlimited On-Site Support</li>
+                      <li>Unlimited Technology Consulting</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-7" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <h4 class="font-weight-bolder text-primary">Enterprise Services</h4>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies has been in business since 2010 as a Block-Time IT company that specialized in
+                    break-fix services. NHK has had great success in servicing and maintaining small and medium size
+                    companies by going beyond the normal scope of service. That fact still holds true and by conducting
+                    thorough surveys and questionnaires, we have formulated an All-Inclusive IT Support model called
+                    “NHK Total Care”. <br><br>
+
+                    Whether you are the CFO looking to maintain business functions at a reduced cost or an IT Director
+                    trying to manage a staff, unique situations can occur. The NHK Total Care solution is tailored for
+                    the specific need of the business. We strategically developed a solution for businesses with an IT
+                    staff or without an IT staff.<br><br>
+
+                    The NHK Total Care solution was generated to eliminate the annoyances business owners, C-Level
+                    executives, and IT Directors were experiencing. The NHK Total Care Solution is based around a Fixed
+                    Fee model and disposes of any open ended costs associated with 3rd party IT support. Business
+                    owners, CFO’s, and Controllers can accurately budget around their current IT network support without
+                    any additional costs.<br><br>
+
+                    One of the biggest challenges a business faces is the security of their network. Whether it is
+                    protecting their client’s information, detecting and spoiling would- be hackers or keeping up to
+                    date on new virus threats. The list goes on and on. NHK Total Care takes security to the next level
+                    by utilizing enterprise equipment combined with the best pro-active measures, terminating any
+                    security threats that will arise.<br><br>
+
+                    As businesses rely more on data communication, it is essential to have a fully functional email
+                    system, free of unwanted advertisements. The NHK Total Care Solution is provisioned with the world’s
+                    leading security applications to guard against unwanted solicitations.<br><br>
+
+                    NHK Technologies believes an effective consultant not only provides results-driven conclusions but
+                    provides a detailed flow chart on how each solution was determined. The NHK Total Care Solution is
+                    comprised of 4 areas of professional services. Each area is critical to ensure a healthy and
+                    efficient IT infrastructure. The 4 areas of professional services are, but not limited to: <br><br>
+
+                    <ul>
+                      <li>24x7 Network Monitoring</li>
+                      <li>Unlimited Help Desk Support</li>
+                      <li>Unlimited On-Site Support</li>
+                      <li>Unlimited Technology Consulting</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-8" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <h4 class="font-weight-bolder text-primary">Managed Service (OR MSP)</h4>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies has been in business since 2010 as a Block-Time IT company that specialized in
+                    break-fix services. NHK has had great success in servicing and maintaining small and medium size
+                    companies by going beyond the normal scope of service. That fact still holds true and by conducting
+                    thorough surveys and questionnaires, we have formulated an All-Inclusive IT Support model called
+                    “NHK Total Care”. <br><br>
+
+                    Whether you are the CFO looking to maintain business functions at a reduced cost or an IT Director
+                    trying to manage a staff, unique situations can occur. The NHK Total Care solution is tailored for
+                    the specific need of the business. We strategically developed a solution for businesses with an IT
+                    staff or without an IT staff.<br><br>
+
+                    The NHK Total Care solution was generated to eliminate the annoyances business owners, C-Level
+                    executives, and IT Directors were experiencing. The NHK Total Care Solution is based around a Fixed
+                    Fee model and disposes of any open ended costs associated with 3rd party IT support. Business
+                    owners, CFO’s, and Controllers can accurately budget around their current IT network support without
+                    any additional costs.<br><br>
+
+                    One of the biggest challenges a business faces is the security of their network. Whether it is
+                    protecting their client’s information, detecting and spoiling would- be hackers or keeping up to
+                    date on new virus threats. The list goes on and on. NHK Total Care takes security to the next level
+                    by utilizing enterprise equipment combined with the best pro-active measures, terminating any
+                    security threats that will arise.<br><br>
+
+                    As businesses rely more on data communication, it is essential to have a fully functional email
+                    system, free of unwanted advertisements. The NHK Total Care Solution is provisioned with the world’s
+                    leading security applications to guard against unwanted solicitations.<br><br>
+
+                    NHK Technologies believes an effective consultant not only provides results-driven conclusions but
+                    provides a detailed flow chart on how each solution was determined. The NHK Total Care Solution is
+                    comprised of 4 areas of professional services. Each area is critical to ensure a healthy and
+                    efficient IT infrastructure. The 4 areas of professional services are, but not limited to: <br><br>
+
+                    <ul>
+                      <li>24x7 Network Monitoring</li>
+                      <li>Unlimited Help Desk Support</li>
+                      <li>Unlimited On-Site Support</li>
+                      <li>Unlimited Technology Consulting</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-9" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <h4 class="font-weight-bolder text-primary">Software & Database Development</h4>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies has been in business since 2010 as a Block-Time IT company that specialized in
+                    break-fix services. NHK has had great success in servicing and maintaining small and medium size
+                    companies by going beyond the normal scope of service. That fact still holds true and by conducting
+                    thorough surveys and questionnaires, we have formulated an All-Inclusive IT Support model called
+                    “NHK Total Care”. <br><br>
+
+                    Whether you are the CFO looking to maintain business functions at a reduced cost or an IT Director
+                    trying to manage a staff, unique situations can occur. The NHK Total Care solution is tailored for
+                    the specific need of the business. We strategically developed a solution for businesses with an IT
+                    staff or without an IT staff.<br><br>
+
+                    The NHK Total Care solution was generated to eliminate the annoyances business owners, C-Level
+                    executives, and IT Directors were experiencing. The NHK Total Care Solution is based around a Fixed
+                    Fee model and disposes of any open ended costs associated with 3rd party IT support. Business
+                    owners, CFO’s, and Controllers can accurately budget around their current IT network support without
+                    any additional costs.<br><br>
+
+                    One of the biggest challenges a business faces is the security of their network. Whether it is
+                    protecting their client’s information, detecting and spoiling would- be hackers or keeping up to
+                    date on new virus threats. The list goes on and on. NHK Total Care takes security to the next level
+                    by utilizing enterprise equipment combined with the best pro-active measures, terminating any
+                    security threats that will arise.<br><br>
+
+                    As businesses rely more on data communication, it is essential to have a fully functional email
+                    system, free of unwanted advertisements. The NHK Total Care Solution is provisioned with the world’s
+                    leading security applications to guard against unwanted solicitations.<br><br>
+
+                    NHK Technologies believes an effective consultant not only provides results-driven conclusions but
+                    provides a detailed flow chart on how each solution was determined. The NHK Total Care Solution is
+                    comprised of 4 areas of professional services. Each area is critical to ensure a healthy and
+                    efficient IT infrastructure. The 4 areas of professional services are, but not limited to: <br><br>
+
+                    <ul>
+                      <li>24x7 Network Monitoring</li>
+                      <li>Unlimited Help Desk Support</li>
+                      <li>Unlimited On-Site Support</li>
+                      <li>Unlimited Technology Consulting</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-10" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <h4 class="font-weight-bolder text-primary">Web Based Solutions</h4>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies has been in business since 2010 as a Block-Time IT company that specialized in
+                    break-fix services. NHK has had great success in servicing and maintaining small and medium size
+                    companies by going beyond the normal scope of service. That fact still holds true and by conducting
+                    thorough surveys and questionnaires, we have formulated an All-Inclusive IT Support model called
+                    “NHK Total Care”. <br><br>
+
+                    Whether you are the CFO looking to maintain business functions at a reduced cost or an IT Director
+                    trying to manage a staff, unique situations can occur. The NHK Total Care solution is tailored for
+                    the specific need of the business. We strategically developed a solution for businesses with an IT
+                    staff or without an IT staff.<br><br>
+
+                    The NHK Total Care solution was generated to eliminate the annoyances business owners, C-Level
+                    executives, and IT Directors were experiencing. The NHK Total Care Solution is based around a Fixed
+                    Fee model and disposes of any open ended costs associated with 3rd party IT support. Business
+                    owners, CFO’s, and Controllers can accurately budget around their current IT network support without
+                    any additional costs.<br><br>
+
+                    One of the biggest challenges a business faces is the security of their network. Whether it is
+                    protecting their client’s information, detecting and spoiling would- be hackers or keeping up to
+                    date on new virus threats. The list goes on and on. NHK Total Care takes security to the next level
+                    by utilizing enterprise equipment combined with the best pro-active measures, terminating any
+                    security threats that will arise.<br><br>
+
+                    As businesses rely more on data communication, it is essential to have a fully functional email
+                    system, free of unwanted advertisements. The NHK Total Care Solution is provisioned with the world’s
+                    leading security applications to guard against unwanted solicitations.<br><br>
+
+                    NHK Technologies believes an effective consultant not only provides results-driven conclusions but
+                    provides a detailed flow chart on how each solution was determined. The NHK Total Care Solution is
+                    comprised of 4 areas of professional services. Each area is critical to ensure a healthy and
+                    efficient IT infrastructure. The 4 areas of professional services are, but not limited to: <br><br>
+
+                    <ul>
+                      <li>24x7 Network Monitoring</li>
+                      <li>Unlimited Help Desk Support</li>
+                      <li>Unlimited On-Site Support</li>
+                      <li>Unlimited Technology Consulting</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-11" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="col-md-12">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <h4 class="font-weight-bolder text-primary">UX & UI Design</h4>
+                </div>
+                <div class="row">
+                  <div>
+                    NHK Technologies has been in business since 2010 as a Block-Time IT company that specialized in
+                    break-fix services. NHK has had great success in servicing and maintaining small and medium size
+                    companies by going beyond the normal scope of service. That fact still holds true and by conducting
+                    thorough surveys and questionnaires, we have formulated an All-Inclusive IT Support model called
+                    “NHK Total Care”. <br><br>
+
+                    Whether you are the CFO looking to maintain business functions at a reduced cost or an IT Director
+                    trying to manage a staff, unique situations can occur. The NHK Total Care solution is tailored for
+                    the specific need of the business. We strategically developed a solution for businesses with an IT
+                    staff or without an IT staff.<br><br>
+
+                    The NHK Total Care solution was generated to eliminate the annoyances business owners, C-Level
+                    executives, and IT Directors were experiencing. The NHK Total Care Solution is based around a Fixed
+                    Fee model and disposes of any open ended costs associated with 3rd party IT support. Business
+                    owners, CFO’s, and Controllers can accurately budget around their current IT network support without
+                    any additional costs.<br><br>
+
+                    One of the biggest challenges a business faces is the security of their network. Whether it is
+                    protecting their client’s information, detecting and spoiling would- be hackers or keeping up to
+                    date on new virus threats. The list goes on and on. NHK Total Care takes security to the next level
+                    by utilizing enterprise equipment combined with the best pro-active measures, terminating any
+                    security threats that will arise.<br><br>
+
+                    As businesses rely more on data communication, it is essential to have a fully functional email
+                    system, free of unwanted advertisements. The NHK Total Care Solution is provisioned with the world’s
+                    leading security applications to guard against unwanted solicitations.<br><br>
+
+                    NHK Technologies believes an effective consultant not only provides results-driven conclusions but
+                    provides a detailed flow chart on how each solution was determined. The NHK Total Care Solution is
+                    comprised of 4 areas of professional services. Each area is critical to ensure a healthy and
+                    efficient IT infrastructure. The 4 areas of professional services are, but not limited to: <br><br>
+
+                    <ul>
+                      <li>24x7 Network Monitoring</li>
+                      <li>Unlimited Help Desk Support</li>
+                      <li>Unlimited On-Site Support</li>
+                      <li>Unlimited Technology Consulting</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section><!-- End Project Section -->
+
+    <!-- ======= How We work Section ======= -->
+    <section id="services" class="services py-4">
+      <div class="container-fluid pt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="text-primary">
+              <h2 class="font-weight-bolder">How we work to develop digital
+                product with the ability internet</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div>
+              <small>We want to provide a user-friendly experience with the eyes capture designs and develop products quickly with the ability to solve user problemsa</small>
+            </div>
+          </div>
+        </div>
+        <div class="row py-5">
+          <div class="col-md-3">
+            <div class="card">
+              <img class="card-img-top" src="/assets/img/services/it-consultancy.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bolder">IT Consultancy</h5>
+                <p class="card-text">Managing your business is one thing – managing all your workplace technology is another. Our IT consultants take care of both, keeping your tech ticking</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img class="card-img-top" src="/assets/img/services/manageg-print.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bolder">Managed Print</h5>
+                <p class="card-text">Improved performance at lower costs; our Managed Print service keeps your print devices optimised, eco-friendly and economical.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img class="card-img-top" src="/assets/img/services/it-security.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bolder">IT Security</h5>
+                <p class="card-text">Seriously strong security from industry-leading providers. We can help manage some of the biggest security threats to your business including targeted cyber attacks.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img class="card-img-top" src="/assets/img/services/it-consultancy.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bolder">IT Consultancy</h5>
+                <p class="card-text">Managing your business is one thing – managing all your workplace technology is another. Our IT consultants take care of both, keeping your tech ticking.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section><!-- End How We work Section -->
+
+    <!-- ======= Section ======= -->
+    <section id="services" class="services py-4">
+      <div class="container-fluid" style="background-color: #007bff; padding-left: 0px!important; padding-right: 0px!important;">
+        <div class="w-100 d-flex">
+          <div class="w-50" style="background-color: gray;">
+            <div class="img-box h-100 d-flex justify-content-center align-items-center">
+              <!-- <img style="width: 100%; height: 400px; object-fit: cover;" src="/assets/img/services/img-default2.jpg" alt=""> -->
+              <div class="img-text">
+                <div class="h3">Dedicated to the success
+                  of your digital product.</div>
+                <div>
+                  <small>We create modern adn customized website for your 
+                    business growth, and enter the talk room with us. </small>
+                </div>
+                <div class="py-3">
+                  <ul>
+                    <li>How to choose the right customer for your photo business?</li>
+                    <li>Caring is the new marketing</li>
+                    <li>Helping a local business reinvent itself</li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="w-50" style="background-color: yellowgreen;">
+            <div>
+              <img style="width: 100%; height: 400px; object-fit: cover;" src="/assets/img/services/img-default.jpg" alt="">
+            </div>
+          </div>
+          <!-- <div class="px-0" style="width: 100%;height: 400px; overflow: hidden; ba">
+            hello
+            <img style="width: 100%; height: 100%; object-fit: cover;" src="/assets/img/services/img-default.jpg" alt="">
+          </div> -->
+          <!-- <div class="px-0" style="width: 50%;height: 400px; overflow: hidden;">
+            <img style="width: 100%; height: 100%; object-fit: cover;" src="/assets/img/services/img-default.jpg" alt="">
+          </div> -->
+        </div>
+        
+        <!-- <div class="d-flex">
+          <div>
+            <img style="height: 100%;" src="/assets/img/services/img-default.jpg" alt="">
+          </div>
+          <div>
+            <img style="height: 100%;" src="/assets/img/services/img-default.jpg" alt="">
+          </div>
+        </div> -->
+        
+      </div>
+    </section><!-- End Section -->
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" style="background-color: #f3f3f3;">
+    <div class="footer-top pt-5">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-lg-5 col-md-6 footer-info">
+            <!-- <h3>Mamba</h3> -->
+            <!-- <img class="img-fluid" style="height: 120px;" src="assets/img/footer-logo.png" alt="footer logo"> -->
+            <h4>NHK Technologies PVT. LTD.</h4>
+            <p>
+              NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT
+              solutions.
+              We work hand-in-hand with our clients to provide lasting network, development and web-based solutions
+              that understand, anticipate, and meet current and long-term business objectives.
+              <!-- A108 Adam Street <br>
+                NY 535022, USA<br><br> -->
+              <!-- <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br> -->
+            </p>
+            <div class="social-links mt-3">
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4 class="uf">Useful Links</h4>
+            <ul class="mt-5">
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Project</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Case Study</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4 class="font-weight-bolder">Contact Us</h4>
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+            <!-- <form action="" method="post">
+
+                <input type="email" name="email"><input type="submit" value="Subscribe">
+              </form> -->
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid copyright-container">
+      <div class="copyright">
+        COPYRIGHT © 2023 NHKTECHNOLOGIES - ALL RIGHTS RESERVED
+        <!-- &copy; Copyright <strong><span>Mamba</span></strong>. All Rights Reserved -->
+      </div>
+      <!-- <div class="credits">
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div> -->
+    </div>
+  </footer><!-- End Footer -->
+
+
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
@@ -140,29 +986,59 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/css/owl.carousel.js"></script>
+  <script src="assets/js/custom.js"></script>
 
-  
+
   <script>
-    $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
+    $(document).ready(function () {
+
+      var owl_our_experties = $("#owl-our-experties");
+      var owl = $("#owl-demo");
+      var owl1 = $("#owl-demo1");
+
+      owl_our_experties.owlCarousel({
+        itemsCustom: [
+          [0, 1],
+          [450, 1],
+          [600, 2],
+          [700, 3],
+          [1000, 4],
+        ],
+        loop: true,
+        navigation: true,
+        pagination: false
+      });
+      owl.owlCarousel({
+        itemsCustom: [
+          [0, 2],
+          [450, 2],
+          [600, 3],
+          [700, 5],
+          [1000, 5],
+        ],
+        loop: true,
+        pagination: false,
+        //  navigation : true
+        // autoPlay : true,
+        // // loop: true,
+        // goToFirst : true,
+      });
+      owl1.owlCarousel({
+        itemsCustom: [
+          [0, 1],
+          [450, 3],
+          [600, 4],
+          [700, 4],
+          [1000, 4],
+        ],
+        //  navigation : true
+        navigation: true,
+        pagination: false
+      });
+    });
   </script>
 
-<script src="assets/js/highlight.js"></script>
-    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
