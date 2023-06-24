@@ -1660,3 +1660,55 @@ section {
 }
 
 /* END index page slider */
+
+/* Service Page */
+
+.service-page-banner {
+  background-image: url('/assets/img/services/banner.png');
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+.service-bg {
+  position: absolute;
+  top: 0;
+  background-image: url('/assets/img/services/bg-image3.png');
+  /* background-position: bottom top 100px, right 800px; */
+  background-position: right top;
+  background-repeat: no-repeat;
+  /* height: auto; */
+  background-color: transparent;
+}
+.side-nav1 .nav-link.active{
+  color: #007bff;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 16px;
+}
+.side-nav1  .nav-link, .nav-pills .show>.nav-link {
+  color: #000;
+}
+.img-box{
+  /* position: relative; */
+  background-image: url('/assets/img/services/img-default2.jpg');
+  color: #FFFFFF;
+}
+.img-box ul {
+  padding: 0;
+    list-style: none;
+    margin-left: 0px!important;
+  }
+
+  .img-box ul li:before {
+    content: '✓ ';
+
+  }
+  @media only screen and (max-width : 768px) {
+    .img-text{
+      padding: 20px;
+    }
+  }
+/* END Service Page */
+
+
