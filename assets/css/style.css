@@ -1645,4 +1645,18 @@ section {
   padding-top: 16px;
 }
 
+.servies-text a {
+  font-size: 18px;
+}
+#owl-our-experties .owl-item{
+  width: 12%!important;
+}
+.img-about{
+  width: 100%;
+}
+
+.hero-container .carousel-indicators{
+  bottom: 13px!important;
+}
+
 /* END index page slider */
