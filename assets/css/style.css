@@ -1663,12 +1663,7 @@ section {
 
 /* Service Page */
 
-.service-page-banner {
-  background-image: url('/assets/img/services/banner.png');
-  width: 100%;
-  height: 400px;
-  background-repeat: no-repeat;
-}
+
 
 .service-bg {
   position: absolute;
