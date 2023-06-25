@@ -1438,6 +1438,7 @@ section {
   background-color: #05439A;
   color: #FFFFFF;
   font-size: 32px;
+  height: 100%;
   font-weight: 900;
   border-radius: 20px;
   padding: 32px 32px 32px 20px;
@@ -1576,7 +1577,7 @@ section {
 }
 
 .title-box-desc {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .clientReview .owl-prev,
@@ -1657,6 +1658,13 @@ section {
 
 .hero-container .carousel-indicators{
   bottom: 13px!important;
+}
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+    /* max-width: 1140px; */
+    max-width: 1280px!important;
+  }
 }
 
 /* END index page slider */
