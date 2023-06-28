@@ -1680,6 +1680,10 @@ section {
   margin-right: auto;
   z-index: 5;
 }
+.section-heading{
+  font-size: 24px;
+  font-weight: 900;
+}
 
 /* END index page slider */
 
@@ -1708,6 +1712,25 @@ section {
     .img-text{
       padding: 20px;
     }
+  }
+  .banner {
+    background-image: url('/assets/img/services/banner.png');
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+  }
+  .service-bg {
+    position: absolute;
+    top: 0;
+    background-image: url('assets/img/services/bg-image3.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: transparent;
+  }
+  .img-box {
+    /* position: relative; */
+    background-image: url('assets/img/services/img-default2.jpg');
+    color: #FFFFFF;
   }
 /* END Service Page */
 
