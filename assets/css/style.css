@@ -110,13 +110,14 @@ h6,
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 100px;
+  height: 120px;
   transition: all 0.5s;
   transition: all 0.5s;
   /* padding: 10px 0; */
-  background: #fff;
+  /* background: #fff; */
+  background: transparent;
   z-index: 997;
-  box-shadow: 0px 6px 5px #ededed;
+  /* box-shadow: 0px 6px 5px #ededed; */
 }
 
 
@@ -178,17 +179,24 @@ h6,
 }
 
 .nav-menu a:hover,
-.nav-menu .active>a,
 .nav-menu li:hover>a {
   color: #FFFFFF;
   text-decoration: none;
   background-color: #0c4eb7;
 }
+.nav-menu .active>a{
+  color: #0c4eb7;
+  text-decoration: none;
+  background-color: #FFFFFF;
+}
 .nav-ul .active{
-  background-color: #0c4eb7;
+  background-color: #FFF;
 }
 .nav-ul li:hover{
   background-color: #0c4eb7;
+}
+.nav-menu .drop-down>a::after{
+  display: none;
 }
 
 .nav-menu .drop-down ul {
@@ -380,14 +388,16 @@ h6,
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 80px);
+  /* height: calc(100vh - 80px); */
+  height: calc(100vh - 0px);
   padding: 0;
   overflow: hidden;
 }
 
 #hero .carousel-item {
   width: 100%;
-  height: calc(100vh - 60px);
+  /* height: calc(100vh - 80px); */
+  height: calc(100vh - 0px);
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
@@ -1645,7 +1655,7 @@ section {
   color: #fff;
 }
 .nav-ul .nav-li{
-  padding-top: 16px;
+  padding-top: 30px;
 }
 
 .servies-text a {

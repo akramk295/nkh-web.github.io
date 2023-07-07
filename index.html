@@ -37,17 +37,39 @@
   <link href="assets/css/owl.carousel.css" rel="stylesheet">
   <link href="assets/css/owl.theme.css" rel="stylesheet">
 
+  <style>
+    #header-sticky-wrapper{
+      position: absolute;
+      top: 0px;
+      left: 0px; 
+      width: 100%; 
+      z-index: 10; 
+      /* position: fixed;  */
+      background:transparent;
+    }
+    .is-sticky .header-scrolled{
+      background-color: #FFF!important;
+    }
+    .is-sticky .header-scrolled .nav-ul .active {
+      background-color: #0c4eb7;
+    }
+    .is-sticky .header-scrolled .nav-menu .active>a, .nav-menu li:hover>a {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #0c4eb7;
+}
+  </style>
 </head>
 
 <body>
   <!-- ======= Header ======= -->
-  <header id="header" style="      height: 100px;  background: rgb(51, 139, 207);">
+  <!-- background: rgb(51, 139, 207); -->
+  <header id="header" >
     <div class="container-fluid">
 
       <div class="logo float-left">
         <a href="index.html">
-          <!-- <img style="max-height: 60px;" src="assets/img/logo.jpg" alt="" class="img-fluid"> -->
-          <img style="max-height: 100px;" src="assets/img/footer-logo.png" alt="" class="img-fluid">
+          <img style="max-height: 120px;" src="assets/img/logo.png" alt="" class="img-fluid">
         </a>
       </div>
 
@@ -78,13 +100,16 @@
           <li class="nav-li"><a href="about.html">About</a></li>
           <li class="nav-li"><a href="contact.html">Contact</a></li>
         </ul>
-      </nav><!-- .nav-menu -->
+      </nav>
 
     </div>
-  </header><!-- End Header -->
+  </header>
+  <div style="">
+  </div>
 
   <!-- ======= Slider Section ======= -->
-  <section id="hero">
+  <section id="hero" style="position: relative;">
+    
     <div class="hero-container">
       <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
@@ -179,8 +204,8 @@
               </div>
             </div>
             <div class="col-md-6">
-              <img class="img-fluid img-about" style="height: 100%; width: 100%;" src="assets/img/clients/rectangle-image.png"
-                alt="">
+              <img class="img-fluid img-about" style="height: 100%; width: 100%;"
+                src="assets/img/clients/rectangle-image.png" alt="">
             </div>
           </div>
           <div class="row mt-4">
@@ -204,8 +229,8 @@
               NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT
               solutions. We work hand-in-hand with our clients to provide lasting network, development and web-based
               solutions that understand, anticipate, and meet current and long-term business objectives.
-              From Assessment and analysis to implementation and support, we approach technology from a whole business 
-              perspective. Our customer-focused technology team delivers unrivaled depth of technical resources and 
+              From Assessment and analysis to implementation and support, we approach technology from a whole business
+              perspective. Our customer-focused technology team delivers unrivaled depth of technical resources and
               support to our clients.
             </div>
             <a href="#" class="custom-btn">More..</a>
@@ -237,7 +262,7 @@
               </div>
             </div>
           </div>
-          
+
         </div>
         <div class="col-md-9">
           <div id="owl-our-experties" class="owl-carousel owl-theme clientReview">
@@ -248,8 +273,8 @@
                 </div>
                 <div class="service-card-text">
                   <div class="service-card-title">Managed Services</div>
-                    <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated
-                      total IT solutions </small>
+                  <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated
+                    total IT solutions </small>
                   <div class="py-2">
                     <a href="">View more <img src="assets/img/long-arrow-right.png" class="img-fluid"></img></a>
                   </div>
@@ -263,7 +288,8 @@
                 </div>
                 <div class="service-card-text">
                   <div class="service-card-title">Cloud Services</div>
-                    <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions </small>
+                  <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total
+                    IT solutions </small>
                   <div class="py-2">
                     <a href="">View more <img src="assets/img/long-arrow-right.png" class="img-fluid"></img></a>
                   </div>
@@ -277,7 +303,8 @@
                 </div>
                 <div class="service-card-text">
                   <div class="service-card-title">Virtualization</div>
-                    <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions  </small>
+                  <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total
+                    IT solutions </small>
                   <div class="py-2">
                     <a href="">View more <img src="assets/img/long-arrow-right.png" class="img-fluid"></img></a>
                   </div>
@@ -291,8 +318,8 @@
                 </div>
                 <div class="service-card-text">
                   <div class="service-card-title">Managed Services</div>
-                    <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated
-                      total IT solutions </small>
+                  <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated
+                    total IT solutions </small>
                   <div class="py-2">
                     <a href="">View more <img src="assets/img/long-arrow-right.png" class="img-fluid"></img></a>
                   </div>
@@ -306,8 +333,8 @@
                 </div>
                 <div class="service-card-text">
                   <div class="service-card-title">Managed Services</div>
-                    <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated
-                      total IT solutions </small>
+                  <small>NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated
+                    total IT solutions </small>
                   <div class="py-2">
                     <a href="">View more <img src="assets/img/long-arrow-right.png" class="img-fluid"></img></a>
                   </div>
@@ -333,12 +360,15 @@
           </div>
         </div>
         <div class="col-md-9 d-flex align-items-end">
-          <div class=""> 
+          <div class="">
             <div class="section-heading">
               NHK Technologies PVT. LTD.
             </div>
             <div class="title-box-desc">
-              Was formed in 2014 to meet the growing demands for integrated total IT solutions. We work hand-in-hand with our clients to provide lasting network, development and web-based solutions that understand, anticipate, and meet current and long-term business objectives. From Assessment and analysis to implementation
+              Was formed in 2014 to meet the growing demands for integrated total IT solutions. We work hand-in-hand
+              with our clients to provide lasting network, development and web-based solutions that understand,
+              anticipate, and meet current and long-term business objectives. From Assessment and analysis to
+              implementation
             </div>
           </div>
         </div>
@@ -346,11 +376,16 @@
       <div class="row mt-5">
         <div class="col-md-5">
           <div class="nav side-nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <a class="py-3 nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">Restoration of Exchange Environment</a>
-            <a class="py-3 nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Mailbox Migration to Office 365</a>
-            <a class="py-3 nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">Mail server to office 365</a>
-            <a class="py-3 nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">Restoration of Exchange Environment</a>
-            <a class="py-3 nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#tab-5" role="tab" aria-controls="tab-5" aria-selected="false">Mailbox Migration to Office 365</a>
+            <a class="py-3 nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#tab-1" role="tab"
+              aria-controls="tab-1" aria-selected="true">Restoration of Exchange Environment</a>
+            <a class="py-3 nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#tab-2" role="tab"
+              aria-controls="tab-2" aria-selected="false">Mailbox Migration to Office 365</a>
+            <a class="py-3 nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#tab-3" role="tab"
+              aria-controls="tab-3" aria-selected="false">Mail server to office 365</a>
+            <a class="py-3 nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#tab-4" role="tab"
+              aria-controls="tab-4" aria-selected="false">Restoration of Exchange Environment</a>
+            <a class="py-3 nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#tab-5" role="tab"
+              aria-controls="tab-5" aria-selected="false">Mailbox Migration to Office 365</a>
           </div>
         </div>
         <div class="col-md-7">
@@ -364,10 +399,11 @@
                 </div>
                 <div class="row">
                   <div>
-                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions the growing demands for integrated total IT solutions 
+                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT
+                    solutions the growing demands for integrated total IT solutions
                   </div>
                   <a href="#" class="d-flex">
-                    <div >View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
+                    <div>View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
                   </a>
                 </div>
               </div>
@@ -381,11 +417,12 @@
                 </div>
                 <div class="row">
                   <div>
-                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions the growing demands for integrated total IT solutions 
+                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT
+                    solutions the growing demands for integrated total IT solutions
                   </div>
                   <div>
                     <a href="#" class="d-flex">
-                      <div >View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
+                      <div>View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
                     </a>
                   </div>
                 </div>
@@ -400,11 +437,12 @@
                 </div>
                 <div class="row">
                   <div>
-                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions the growing demands for integrated total IT solutions 
+                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT
+                    solutions the growing demands for integrated total IT solutions
                   </div>
                   <div>
                     <a href="#" class="d-flex">
-                      <div >View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
+                      <div>View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
                     </a>
                   </div>
                 </div>
@@ -419,11 +457,12 @@
                 </div>
                 <div class="row">
                   <div>
-                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions the growing demands for integrated total IT solutions 
+                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT
+                    solutions the growing demands for integrated total IT solutions
                   </div>
                   <div>
                     <a href="#" class="d-flex">
-                      <div >View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
+                      <div>View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
                     </a>
                   </div>
                 </div>
@@ -438,11 +477,12 @@
                 </div>
                 <div class="row">
                   <div>
-                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT solutions the growing demands for integrated total IT solutions 
+                    NHK Technologies PVT. LTD. was formed in 2014 to meet the growing demands for integrated total IT
+                    solutions the growing demands for integrated total IT solutions
                   </div>
                   <div>
                     <a href="#" class="d-flex">
-                      <div >View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
+                      <div>View more </div> <i class="px-2 pt-1 fa fa-long-arrow-right" style="font-size:18px"></i>
                     </a>
                   </div>
                 </div>
@@ -451,68 +491,68 @@
           </div>
         </div>
       </div>
-      
+
 
     </div>
   </section><!-- End Project Section -->
 
-    <!-- ======= Client Section ======= -->
-    <section id="services" class="services py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="title-box">
-              <div>
-                Our <br> Clients
-              </div>
-            </div>
-          </div>
-          <div class="col-md-9 d-flex align-items-end">
-            <div class="">
-              <div class="title-box-desc">
-                We help businesses in fostering and sustaining workforce agility so they can adapt to shifting market
-                conditions and business needs, as well as stay up with the evolution of the workplace.  
-              </div>
+  <!-- ======= Client Section ======= -->
+  <section id="services" class="services py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="title-box">
+            <div>
+              Our <br> Clients
             </div>
           </div>
         </div>
-        <div class="row mt-5">
-          <div id="owl-demo" class="owl-carousel owl-theme">
-            <div class="item">
-              <div class="client-box">
-                <img class="img-fluid" src="assets/img/clients/wipro2.png" alt="">
-              </div>
-            </div>
-            <div class="item">
-              <div class="client-box">
-                <img class="img-fluid" src="assets/img/clients/capgemini.png" alt="">
-              </div>
-            </div>
-            <div class="item">
-              <div class="client-box">
-                <img class="img-fluid" src="assets/img/clients/hcl.png" alt="">
-              </div>
-            </div>
-            <div class="item">
-              <div class="client-box">
-                <img class="img-fluid" src="assets/img/clients/tech-mahindra2.png" alt="">
-              </div>
-            </div>
-            <div class="item">
-              <div class="client-box">
-                <img class="img-fluid" src="assets/img/clients/client_xoriant 1.png" alt="">
-              </div>
-            </div>
-            <div class="item">
-              <div class="client-box">
-                <img class="img-fluid" src="assets/img/clients/capgemini.png" alt="">
-              </div>
+        <div class="col-md-9 d-flex align-items-end">
+          <div class="">
+            <div class="title-box-desc">
+              We help businesses in fostering and sustaining workforce agility so they can adapt to shifting market
+              conditions and business needs, as well as stay up with the evolution of the workplace.  
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End Client Section -->
+      <div class="row mt-5">
+        <div id="owl-demo" class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="client-box">
+              <img class="img-fluid" src="assets/img/clients/wipro2.png" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-box">
+              <img class="img-fluid" src="assets/img/clients/capgemini.png" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-box">
+              <img class="img-fluid" src="assets/img/clients/hcl.png" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-box">
+              <img class="img-fluid" src="assets/img/clients/tech-mahindra2.png" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-box">
+              <img class="img-fluid" src="assets/img/clients/client_xoriant 1.png" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-box">
+              <img class="img-fluid" src="assets/img/clients/capgemini.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Client Section -->
 
   <!-- ======= Reciew Section ======= -->
   <!-- <section id="services" class="services py-5">
