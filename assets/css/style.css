@@ -169,7 +169,7 @@ h6,
   display: block;
   position: relative;
   /* color: #5c768d; */
-  color: #000000;
+  color: #FFFFFF;
   padding: 12px 15px;
   transition: 0.3s;
   /* font-size: 14px; */
@@ -1750,6 +1750,12 @@ section {
 .is-sticky .header-scrolled .nav-menu .active>a,
 .nav-menu li:hover>a {
   color: #FFFFFF;
+  text-decoration: none;
+  /* background-color: #0c4eb7; */
+}
+.is-sticky .header-scrolled .nav-menu a
+{
+  color: #000;
   text-decoration: none;
   /* background-color: #0c4eb7; */
 }
