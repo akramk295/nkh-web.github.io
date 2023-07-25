@@ -1295,7 +1295,7 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 30px;
   display: inline-block;
   background: #f3f3f3;
   /* color: #fff; */
@@ -1304,7 +1304,7 @@ section {
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
+  width: 50px;
   height: 36px;
   transition: 0.3s;
 }
@@ -1646,7 +1646,7 @@ section {
 
 .service-card-text .service-card-title {
   
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
 }
 
