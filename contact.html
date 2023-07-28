@@ -56,7 +56,8 @@
       opacity: 0.5;
       background: var(--nhknhk-100, #C1CBED);
     }
-    .mission-vision{
+
+    .mission-vision {
       position: absolute;
       width: 380px;
       height: 445px;
@@ -64,7 +65,9 @@
       left: 50px;
     }
 
-    .contact-us-form input, .contact-us-form select, .contact-us-form textarea{
+    .contact-us-form input,
+    .contact-us-form select,
+    .contact-us-form textarea {
       background: transparent;
       border: none;
       border-bottom: 1px solid #000000;
@@ -73,10 +76,13 @@
       border-radius: 0;
       resize: none;
     }
-    .form-section .form-section1, .form-section iframe{
+
+    .form-section .form-section1,
+    .form-section iframe {
       border-radius: 10px 0px 0px 10px;
     }
-    .form-section .form-section2{
+
+    .form-section .form-section2 {
       border-radius: 0px 10px 10px 0px;
     }
   </style>
@@ -127,7 +133,7 @@
         <div class="w-100 d-flex justify-content-center">
           <div class="col-md-4 text-white text-center">
             <h1 class="animated fadeInDown font-weight-bold">Contact Us</h1>
-            <div class="animated fadeInUp">It is a long established fact that a reader will be distracted by 
+            <div class="animated fadeInUp">It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout.</div><br>
           </div>
         </div>
@@ -140,13 +146,108 @@
   <section id="services" class="services py-4">
     <div class="container pt-5">
       <div class="row">
+        <div class="col-md-6 px-5">
+          <div class="px-5">
+            <div class="section-heading text-primary">
+              GET IN TOUCH TO DISCUSS HOW WE CAN SECURE AND SUPPORT YOUR BUSINESS
+            </div>
+            <div class="py-4">
+              Our friendly and highly knowledgeable team offer extensive cyber security and IT Support for SMEs in the
+              United Kingdom and across the globe.
+              Complete the form to the right or book a time to speak with one of our sales team:
+            </div>
+            <div class="py-4">
+              <div class="media py-4">
+                <i class="fa fa-map-marker" style="font-size: 40px;"></i>
+                <div class="media-body ml-3">
+                  <div class="section-heading text-primary mt-0">Location</div>
+                  NHK TechnologiesNL-6/6/13, Sector 2,
+                  Nerul (West),Navi Mumbai - 400706 (MH, India)
+                </div>
+              </div>
+              <div class="media py-4">
+                <i class="fa fa-phone" style="font-size: 40px;"></i>
+                <div class="media-body ml-3">
+                  <div class="section-heading text-primary mt-0">Contact</div>
+                  US Office: +1 818 338 0099 <br>
+                  India Office: +91 22 2773 1275
+                </div>
+              </div>
+              <div class="media py-4">
+                <i class="fa fa-envelope" style="font-size: 40px;"></i>
+                <div class="media-body ml-3">
+                  <div class="section-heading text-primary mt-0">Email Us</div>
+                  info@nhktechnologies.com
+                </div>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="section-heading text-primary">Get in Touch</div>
+          <div>
+            <form action="#">
+              <div class="contact-us-form">
+                <div class="form-group py-3">
+                  <input type="date" class="form-control" id="date" name="date" placeholder="Date">
+                </div>
+                <div class="form-group py-3">
+                  <select name="services" id="services" class="form-select form-control">
+                    <option value="">Service Desk</option>
+                    <option value="">Network Monitoring</option>
+                    <option value="">Remote IT support</option>
+                    <option value="">Out of Hours IT Support</option>
+                    <option value="">Dedicated Service Desk</option>
+                    <option value="">Network Support</option>
+                    <option value="">Microsoft Support</option>
+                    <option value="">Business IT support</option>
+                    <option value="">IT project</option>
+                    <option value="">Software Licensing</option>
+                    <option value="">IT Procurement</option>
+                    <option value="">IT Security</option>
+                    <option value="">Cloud Readiness</option>
+                    <option value="">Virtualization</option>
+                    <option value="">Backup and continuity</option>
+                    <option value="">Public Cloud</option>
+                    <option value="">Hybrid Cloud</option>
+                    <option value="">Telephone System </option>
+                    <option value="">SIP Trunk </option>
+                    <option value="">Others</option>
+                  </select>
+                </div>
+                <div class="form-group py-3">
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
+                </div>
+                <div class="form-group py-3">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+                </div>
+                <div class="form-group py-3">
+                  <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone (Optional)">
+                </div>
+                <div class="form-group py-3">
+                  <input type="text" class="form-control" id="address" name="address" placeholder="Address (Optional)">
+                </div>
+                <div class="form-group py-3">
+                  <textarea class="form-control" id="message" name="message" rows="3"
+                    placeholder="Notes (Optional)"></textarea>
+                </div>
+                <div class="d-flex justify-content-end">
+                  <button type="submit" class="btn btn-primary custom-btn">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row">
         <div class="col-md-4">
           <div class="media">
             <i class="fa fa-map-marker" style="font-size: 40px;"></i>
             <div class="media-body ml-3">
               <div class="section-heading text-primary mt-0">Location</div>
-                NHK TechnologiesNL-6/6/13, Sector 2, 
-                Nerul (West),Navi Mumbai - 400706 (MH, India)
+              NHK TechnologiesNL-6/6/13, Sector 2,
+              Nerul (West),Navi Mumbai - 400706 (MH, India)
             </div>
           </div>
         </div>
@@ -165,12 +266,51 @@
             <i class="fa fa-envelope" style="font-size: 40px;"></i>
             <div class="media-body ml-3">
               <div class="section-heading text-primary mt-0">Email Us</div>
-                info@nhktechnologies.com
+              info@nhktechnologies.com
             </div>
           </div>
         </div>
       </div>
       <div class="row py-5 form-section">
+        <div class="w-100 d-flex">
+          <div class="w-50 form-section1" style="background-color: gray;">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3938.3879964060047!2d73.01157444763051!3d19.045555766601275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3e736f0a111%3A0x674417edd5067587!2sSector%202%2C%20Juinagar%20West%2C%20Navi%20Mumbai%2C%20Maharashtra%20400706!5e0!3m2!1sen!2sin!4v1687582744202!5m2!1sen!2sin"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <div class="w-50 form-section2" style="background-color: #F4F4F4;">
+            <div class="px-5 py-5">
+              <div class="section-heading text-primary">Get in Touch</div>
+              <form action="#">
+                <div class="contact-us-form">
+                  <div class="form-group py-4">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
+                  </div>
+                  <div class="form-group py-4">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+                  </div>
+                  <div class="form-group py-4">
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone">
+                  </div>
+                  <div class="form-group py-4">
+                    <input type="text" class="form-control" id="country" name="country" placeholder="Country">
+                  </div>
+                  <div class="form-group py-4">
+                    <textarea class="form-control" id="message" name="message" rows="3"
+                      placeholder="Tell us about your need"></textarea>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary custom-btn">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- <div class="row py-5 form-section">
         <div class="w-100 d-flex">
           <div class="w-50 form-section1" style="background-color: gray;">
             <iframe 
@@ -206,15 +346,8 @@
               </form>
             </div>
           </div>
-          <!-- <div class="px-0" style="width: 100%;height: 400px; overflow: hidden; ba">
-            hello
-            <img style="width: 100%; height: 100%; object-fit: cover;" src="/assets/img/services/img-default.jpg" alt="">
-          </div> -->
-          <!-- <div class="px-0" style="width: 50%;height: 400px; overflow: hidden;">
-            <img style="width: 100%; height: 100%; object-fit: cover;" src="/assets/img/services/img-default.jpg" alt="">
-          </div> -->
         </div>
-      </div>
+      </div> -->
     </div>
   </section><!-- End Contact Us Section -->
 
