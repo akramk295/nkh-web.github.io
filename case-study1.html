@@ -45,6 +45,24 @@
       background-repeat: no-repeat;
       object-fit: scale-down;
     }
+
+    .service-bg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100rem;
+      width: 100rem;
+      background-image: url('assets/img/case-study/bg-img2.png');
+      background-position: right top;
+      background-repeat: no-repeat;
+      background-color: transparent;
+    }
+
+    .img-box {
+      /* position: relative; */
+      background-image: url('assets/img/services/img-default2.jpg');
+      color: #FFFFFF;
+    }
   </style>
 </head>
 
@@ -93,7 +111,7 @@
         <div class="w-100 d-flex justify-content-center">
           <div class="col-md-4 text-white text-center">
             <h1 class="animated fadeInDown font-weight-bold">Case Studies</h1>
-            <div class="animated fadeInUp">It is a long established fact that a reader will be distracted by
+            <div class="animated fadeInUp">It is a long established fact that a reader will be distracted by 
               the readable content of a page when looking at its layout.</div><br>
           </div>
         </div>
@@ -102,175 +120,182 @@
     </div>
   </section><!-- End Banner -->
 
-  <!-- ======= Project Section ======= -->
-  <section id="services" class="services py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 py-3">
-          <div class="section-heading text-primary">
-            Challenges
-          </div>
-          <div class="img-box py-3">
-            <ul>
-              <li>The client was still utilizing POP for their email accounts.</li>
-              <li>The client's current wireless network was unstable and seriously hampered their day-to-day operations.
-              </li>
-              <li>No client data was being correctly backed up, including crucial accounting information that must be
-                preserved.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6 py-3">
-          <div class="section-heading text-primary">
-            Solution
-          </div>
-          <div class="img-box py-3">
-            <ul>
-              <li>Migrate all of the client’s email accounts to Microsoft 365.</li>
-              <li>Disconnect the NAS device from the premises and transfer any remaining data to Microsoft SharePoint.
-              </li>
-              <li>Ubiquiti UniFi enterprise-grade wireless were used in place of the outdated Wireless Access Point.
-              </li>
-              <li>To keep the client's data safe, implement both an offsite backup solution and a specific cloud-based
-                Microsoft 365 backup service.</li>
-
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row py-3">
-        <div class="col-md-12">
-          <div class="section-heading text-primary">
-            Outcome
-          </div>
-          <div class="img-box py-3">
-            <ul>
-              <li>All employees and volunteers now use Microsoft 365 for email, and the most recent version of Outlook
-                is set up on their computers and mobile devices.</li>
-              <li>Daily backups of specific mailboxes are made and kept for a period of 30 days, while snapshots of
-                complete accounts are kept for as long as necessary.</li>
-              <li>The client's business now has a blazing-fast, dependable wireless internet connection throughout all
-                of its floors.</li>
-              <li>Data is backed up in the cloud, with data retention options of up to two months.</li>
-              <li>All data and documents that were previously housed on the NAS device that was on-site are now saved
-                and accessed through Microsoft SharePoint.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row py-3">
-        <div class="col-md-12">
-          <div class="section-heading text-primary">
-            The Project scope
-          </div>
-          <div class="img-box py-3">
-            <ul>
-              <li>All employees and volunteers now use Microsoft 365 for email, and the most recent version of Outlook
-                is set up on their computers and mobile devices.</li>
-              <li>Daily backups of specific mailboxes are made and kept for a period of 30 days, while snapshots of
-                complete accounts are kept for as long as necessary.</li>
-              <li>The client's business now has a blazing-fast, dependable wireless internet connection throughout all
-                of its floors.</li>
-              <li>Data is backed up in the cloud, with data retention options of up to two months.</li>
-              <li>All data and documents that were previously housed on the NAS device that was on-site are now saved
-                and accessed through Microsoft SharePoint.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row py-3">
-        <div class="col-md-12">
-          <div class="section-heading text-primary">
-            Making a transition to Microsoft 365.
-          </div>
-          <div class="img-box py-3">
-            <ul>
-              <li>The migration of all of the clients' current email accounts to Microsoft 365 was our first duty.</li>
-              <li>This included any current task lists and calendar entries. </li>
-              <li>After completing the initial migration to Office 365, we reviewed and tested each account in a sandbox
-                setting before concluding the rollout. We then removed the previous version of Outlook from every
-                computer on-site before installing the most recent version via Microsoft 365.</li>
-              <li>Then, after setting up and testing each user's new email accounts, we made sure that all of the emails
-                were current and that no data had been lost during the move.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section><!-- End Project Section -->
-
-  <!-- ======= Project Section ======= -->
-  <section id="services" class="services py-5" style="background-color:#e7ebf8">
-    <div class="container">
-
-      <div class="row py-5" style="background-color:#e7ebf8">
-        <div class="col-md-6 py-5 px-5">
-          <div class="row py-3">
-            <div class="section-heading text-primary py-3 ">Replacing the NAS device
-              with SharePoint Online</div>
-            <div class="about-text">
-              The client's outdated network attached storage device needed to be retired and replaced with Microsoft
-              SharePoint Online, which is a feature of the Microsoft 365 subscription the customer has chosen. A new
-              SharePoint site was created by a member of our project management team and was specifically tailored to
-              the
-              client's needs. Before retiring the NAS device, we transferred all of their business-critical data onto
-              SharePoint and made a separate backup of it all.
+  <!-- ======= Service Section ======= -->
+  <section id="services" class="services py-4">
+    <div class="container pt-5">
+      <div class="row py-5">
+        <div class="service-bg mt-5"></div>
+        <div class="col-md-10 mx-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-12 pb-5">
+                  <img class="img-fluid img-about" src="assets/img/case-study/img1.png" alt="">
+                  <div class="mt-3">
+                    <div class="section-heading text-primary">
+                      Ravid IT
+                    </div>
+                    <div class="about-text">
+                      We pride ourselves in providing the IT Services and IT Support that our customers need to meet their
+                      business goals. More...
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <img class="img-fluid img-about" src="assets/img/case-study/img3.png" alt="">
+                  <div class="mt-3">
+                    <div class="section-heading text-primary">
+                      Ravid IT
+                    </div>
+                    <div class="about-text">
+                      We pride ourselves in providing the IT Services and IT Support that our customers need to meet their
+                      business goals. More...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <!-- <div class="card-columns">
+                  <div class="card border-0">
+                    <img class="card-img-top" src="assets/img/case-study/img1.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="section-heading text-primary">Ravid IT</h5>
+                      <div class="about-text">
+                        We pride ourselves in providing the IT Services and IT Support that our customers need to meet their
+                        business goals. More...
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border-0">
+                    <img class="card-img-top" src="assets/img/case-study/img1.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="section-heading text-primary">Ravid IT</h5>
+                      <div class="about-text">
+                        We pride ourselves in providing the IT Services and IT Support that our customers need to meet their
+                        business goals. More...
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border-0">
+                    <img class="card-img-top" src="assets/img/case-study/img1.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="section-heading text-primary">Ravid IT</h5>
+                      <div class="about-text">
+                        We pride ourselves in providing the IT Services and IT Support that our customers need to meet their
+                        business goals. More...
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border-0">
+                    <img class="card-img-top" src="assets/img/case-study/img1.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="section-heading text-primary">Ravid IT</h5>
+                      <div class="about-text">
+                        We pride ourselves in providing the IT Services and IT Support that our customers need to meet their
+                        business goals. More...
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border-0">
+                    <img class="card-img-top" src="assets/img/case-study/img1.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="section-heading text-primary">Ravid IT</h5>
+                      <div class="about-text">
+                        We pride ourselves in providing the IT Services and IT Support that our customers need to meet their
+                        business goals. More...
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-primary text-white text-center p-3">
+                    <blockquote class="blockquote mb-0">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                      <footer class="blockquote-footer">
+                        <small>
+                          Someone famous in <cite title="Source Title">Source Title</cite>
+                        </small>
+                      </footer>
+                    </blockquote>
+                  </div>
+                  <div class="card text-center">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img" src="..." alt="Card image">
+                  </div>
+                  <div class="card p-3 text-right">
+                    <blockquote class="blockquote mb-0">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                      <footer class="blockquote-footer">
+                        <small class="text-muted">
+                          Someone famous in <cite title="Source Title">Source Title</cite>
+                        </small>
+                      </footer>
+                    </blockquote>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div> -->
+                <div class="col-md-12 pb-5">
+                  <div class="row">
+                    <div class="">
+                      <div class="pt-5 mt-5">
+                        <img class="img-fluid img-about pt-5 mt-5" src="assets/img/case-study/img1.png" alt="">
+                        <div class="mt-3">
+                          <div class="section-heading text-primary">
+                            Ravid IT
+                          </div>
+                          <div class="about-text">
+                            We pride ourselves in providing the IT Services and IT Support that our customers need to meet
+                            their
+                            business goals. More...
+                          </div>
+                        </div>
+    
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="row h-50">
+                    <div class="">
+                      <div class="">
+                        <img class="img-fluid img-about" src="assets/img/case-study/img1.png" alt="">
+                        <div class="mt-3">
+                          <div class="section-heading text-primary">
+                            Ravid IT
+                          </div>
+                          <div class="about-text">
+                            We pride ourselves in providing the IT Services and IT Support that our customers need to meet
+                            their
+                            business goals. More...
+                          </div>
+                        </div>
+    
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+              </div>
             </div>
           </div>
-          <div class="row py-2">
-            <div class="section-heading text-primary py-3">Updating the wireless network</div>
-            <div class="about-text">
-              The client's failing Wireless Access Point had to be replaced with a Ubiquiti UniFi Indoor Wireless
-              system, which we believe to be one of the most reliable and economical wireless connectivity options
-              currently on the market. Two access points were set up and installed—one on the ground floor and the other
-              on the second story. Then, we connected the two access points so they could function as one wireless
-              network on both levels without reducing their wireless range!
-            </div>
-
-          </div>
+          
         </div>
-        <div class="col-md-6 py-5">
-          <div class="section-heading text-primary py-3">Implementing the online backup solutions</div>
-          <div class="about-text">
-            Our next duty after migrating the client's data and emails to Microsoft 365 was to set up and install a
-            scheduled backup solution for their email and data. <br>  
-            We set up and established a customized cloud-based backup service for the client's emails that is designed
-            especially for businesses that want to back up their Microsoft 365 email accounts. <br> 
-            This was set up to conduct a daily incremental backup of each user's mailboxes, calendars, and other data, like task lists, in
-            addition to their calendars and other data. <br>
-            The service keeps backups for up to 30 days, and you may restore individual emails or full mailboxes. <br>
-            In addition to the client’s accounts database, we set up and installed a second cloud-based backup solution
-            that also takes an incremental backup of any files and folders located on SharePoint. <br> 
-            This data is all backed up in the cloud and stored there for a maximum of two months.
-          </div>
-        </div>
+        
       </div>
     </div>
-  </section><!-- End Project Section -->
-  <!-- ======= Project Section ======= -->
-  <section id="services" class="services py-5">
-    <div class="container">
+  </section><!-- End Service Section -->
 
-      <div class="row py-3">
-        <div class="col-md-12">
-          <div class="section-heading text-primary">
-            The outcome
-          </div>
-          <div class="about-text py-3">
-            Over a week, the entire job was effectively finished. The following Monday, our Project Manager visited the
-            site to address any post-project issues and make sure the network was operating properly. <br>
-            The implementation of the latest Ubiquiti Wireless hardware, the client now enjoys reliable, ultra-fast
-            wireless connectivity with no dead spots. Staff members use Microsoft 365 for emails, ensuring no data loss
-            and easy access to Outlook. All users have the latest version of Microsoft Outlook included in their
-            Microsoft 365 Business subscription. Company data can be securely accessed from anywhere through Microsoft
-            SharePoint Online. Additionally, all SharePoint data and the Sage accounting database are backed up daily to
-            a secure Cloud Backup solution
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!-- End Project Section -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" style="background-color: #f3f3f3;">
