@@ -1600,7 +1600,8 @@ section {
 
 .service-card {
   height: 93%;
-  width: 23rem;
+  /* width: 23rem; */
+  width: 21rem;
   background-color: #f3f3f3;
   border-radius: 1.25rem;
   border: 0px !important;
@@ -1662,7 +1663,8 @@ section {
   font-size: 18px;
 }
 #owl-our-experties .owl-item{
-  width: 12%!important;
+  /* width: 12%!important; */
+  width: 10%!important;
 }
 .img-about{
   width: 100%;
