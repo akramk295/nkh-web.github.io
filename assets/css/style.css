@@ -1601,7 +1601,7 @@ section {
 .service-card {
   height: 93%;
   /* width: 23rem; */
-  width: 21rem;
+  width: 20rem;
   background-color: #f3f3f3;
   border-radius: 1.25rem;
   border: 0px !important;
@@ -1647,7 +1647,7 @@ section {
 
 .service-card-text .service-card-title {
   
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
 }
 
