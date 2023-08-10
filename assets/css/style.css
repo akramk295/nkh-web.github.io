@@ -1601,7 +1601,7 @@ section {
 .service-card {
   height: 93%;
   /* width: 23rem; */
-  width: 20rem;
+  /* width: 20rem; */
   background-color: #f3f3f3;
   border-radius: 1.25rem;
   border: 0px !important;
@@ -1701,6 +1701,9 @@ section {
 }
 #header .web-logo{
   max-height: 120px!important;
+}
+.our-experties .item{
+ padding: 0 5px 0 5px;
 }
 
 @media only screen and (max-width: 768px) {
