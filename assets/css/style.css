@@ -1698,6 +1698,20 @@ section {
   font-size: 24px;
   font-weight: 900;
 }
+#header .web-logo{
+  max-height: 120px!important;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #header{
+    height: 60px;
+  }
+  #header .web-logo{
+    margin-top: 10px!important;
+    max-height: 40px!important;
+  }
+}
 
 /* END index page slider */
 
