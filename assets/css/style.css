@@ -1707,6 +1707,15 @@ section {
 .support-service-content{
   padding: 3rem 3rem 3rem 3rem;
 }
+.contact-info-col{
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.col-no-padding{
+  /* padding-left: 0;
+  padding-right: 0; */
+  display: flex;
+}
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
@@ -1743,6 +1752,10 @@ section {
   }
   .who-we-are-text{
     margin-top: 20px;
+  }
+  .contact-info-col{
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
