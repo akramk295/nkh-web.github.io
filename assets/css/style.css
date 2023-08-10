@@ -1694,6 +1694,7 @@ section {
   margin-right: auto;
   z-index: 5;
 }
+
 .section-heading{
   font-size: 24px;
   font-weight: 900;
@@ -1710,6 +1711,16 @@ section {
   #header .web-logo{
     margin-top: 10px!important;
     max-height: 40px!important;
+  }
+  .slider-content{
+    padding-top: 110px;
+  }
+  #hero p{
+    width: 100%;
+  }
+  .container{
+    padding-left: 2.6875rem;
+    padding-right: 2.6875rem;
   }
 }
 
