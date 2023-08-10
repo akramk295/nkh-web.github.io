@@ -1704,6 +1704,9 @@ section {
 .our-experties .item{
  padding: 0 5px 0 5px;
 }
+.support-service-content{
+  padding: 3rem 3rem 3rem 3rem;
+}
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
@@ -1724,11 +1727,19 @@ section {
     padding-left: 2.6875rem;
     padding-right: 2.6875rem;
   }
-  .our-service-section{
-    /* margin-top: 400px; */
-  }
+  
   .service-1{
     height: 860px;
+  }
+  .support-service-content{
+    padding: 0 0 0 0;
+    margin-top: 40px;
+  }
+  .title-box-col{
+    padding-bottom: 20px;
+  }
+  .section-heading-col{
+    padding-top: 20px;
   }
 }
 
