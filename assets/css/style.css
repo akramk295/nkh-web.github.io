@@ -1640,9 +1640,8 @@ section {
 .service-card-text{
   position: absolute;
   color: #ffffff !important;
-  bottom: 20px;
-  padding-left: 20px;
-  padding-left: 20px;
+  bottom: 10px;
+  padding-left: 15px;
 }
 
 .service-card-text .service-card-title {
@@ -1724,6 +1723,12 @@ section {
   .container{
     padding-left: 2.6875rem;
     padding-right: 2.6875rem;
+  }
+  .our-service-section{
+    /* margin-top: 400px; */
+  }
+  .service-1{
+    height: 860px;
   }
 }
 
